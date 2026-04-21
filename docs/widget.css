@@ -83,7 +83,10 @@
   --ffs-radius: 10px;
 
   box-sizing: border-box;
-  color: var(--ffs-text);
+  /* Header erbt Text-Farbe vom Parent (Duda-Seite), damit er auf hellem
+   * UND dunklem Seitenhintergrund lesbar ist. Karten + Modal haben
+   * eigenen weißen BG und setzen color explizit auf --ffs-text. */
+  color: inherit;
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   font-weight: 400;
   max-width: 1200px;
@@ -174,6 +177,7 @@
   flex: 0 0 calc(25% - .75rem);
   min-width: 240px;
   background: var(--ffs-card-bg);
+  color: var(--ffs-text);
   border: 1px solid var(--ffs-border);
   border-radius: var(--ffs-radius);
   padding: 1rem;

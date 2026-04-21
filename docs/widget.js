@@ -5,7 +5,15 @@
   'use strict';
 
   const MOUNT_ID = 'ffs-google-reviews';
-  const JSON_URL = new URL('reviews.json', document.currentScript.src).href;
+  const BASE_URL = new URL('./', document.currentScript.src).href;
+  const JSON_URL = new URL('reviews.json', BASE_URL).href;
+
+  function resolveUrl(u) {
+    if (!u) return u;
+    // Absolute URLs (http/https/data) bleiben unverändert
+    if (/^(https?:|data:)/i.test(u)) return u;
+    return new URL(u, BASE_URL).href;
+  }
 
   function ratingLabel(avg) {
     if (avg >= 5.0) return 'Ausgezeichnet';
@@ -47,7 +55,7 @@
 
   function renderAvatar(author) {
     if (author.avatar_url) {
-      return `<img class="avatar" src="${escapeHtml(author.avatar_url)}" alt="${escapeHtml(author.name)}" loading="lazy">`;
+      return `<img class="avatar" src="${escapeHtml(resolveUrl(author.avatar_url))}" alt="${escapeHtml(author.name)}" loading="lazy">`;
     }
     const color = avatarColor(author.name || '?');
     return `<div class="avatar" style="background:${color}" aria-hidden="true">${escapeHtml(author.initial || '?')}</div>`;
