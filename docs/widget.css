@@ -3,6 +3,8 @@
  * nicht in die Duda-Seite leaken.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 .ffs-gr-widget {
   --ffs-gold: #D4A94C;
   --ffs-star: #FBBC04;
@@ -16,7 +18,8 @@
 
   box-sizing: border-box;
   color: var(--ffs-text);
-  font: inherit;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -203,6 +206,8 @@
   justify-content: center;
   z-index: 10000;
   padding: 1rem;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1f1f1f;
 }
 .ffs-gr-modal[open] { display: flex; }
 .ffs-gr-modal .box {
