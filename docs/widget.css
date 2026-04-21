@@ -124,11 +124,16 @@
   letter-spacing: -.02em;
   flex-shrink: 0;
 }
-.ffs-gr-header .label { font-weight: 600; }
-.ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; font-size: 1.4rem; }
-.ffs-gr-header .score { font-weight: 700; font-size: 1.15rem; }
-.ffs-gr-header .separator { color: #dadce0; font-weight: 300; }
-.ffs-gr-header .count { color: #1f1f1f; }
+/* Rating-Zeile: alle Elemente gleiche Größe + fett */
+.ffs-gr-header .label,
+.ffs-gr-header .stars,
+.ffs-gr-header .score,
+.ffs-gr-header .count {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; }
+.ffs-gr-header .separator { color: #dadce0; font-weight: 300; font-size: 1.2rem; }
 .ffs-gr-header .cta-button {
   margin-left: auto;
   padding: .7rem 1.3rem;
