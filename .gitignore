@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Secrets (niemals committen)
+.env
+*.env
+credentials.json
+token.json
+oauth_client_*.json
+
+# OS
+Thumbs.db
+
+# User assets
+*.docx
+
+# Claude Code project settings (local only)
+.claude/

@@ -1,0 +1,89 @@
+{
+  "planPath": "docs/superpowers/plans/2026-04-21-rezensionintegrator-v1.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 0: Repo-Scaffold",
+      "status": "pending",
+      "description": "**Goal:** Projektstruktur, Git-Init, .gitignore, requirements.txt, Stub-README.\n\n**Files:**\n- Create: .gitignore, fetcher/requirements.txt, fetcher/__init__.py, tests/__init__.py, tests/fixtures/.gitkeep, docs/.gitkeep, docs/avatars/.gitkeep, README.md\n\n**Verify:** pip install -r fetcher/requirements.txt && pytest → no errors\n\n```json:metadata\n{\"files\": [\".gitignore\", \"fetcher/requirements.txt\", \"README.md\"], \"verifyCommand\": \"pip install -r fetcher/requirements.txt && pytest\", \"acceptanceCriteria\": [\"directory structure created\", \"pip install works\", \"pytest runs clean\"]}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 1: JSON-Schema-Fixture",
+      "status": "pending",
+      "blockedBy": [0],
+      "description": "**Goal:** Beispiel reviews.json + places_response_sample.json als Fixtures, validate_reviews_json Validator.\n\n**Files:**\n- Create: tests/fixtures/reviews_sample.json, tests/fixtures/places_response_sample.json, fetcher/schema.py, tests/test_schema.py\n\n**Verify:** pytest tests/test_schema.py -v → 3+ PASS\n\n```json:metadata\n{\"files\": [\"fetcher/schema.py\", \"tests/test_schema.py\", \"tests/fixtures/reviews_sample.json\", \"tests/fixtures/places_response_sample.json\"], \"verifyCommand\": \"pytest tests/test_schema.py -v\", \"acceptanceCriteria\": [\"reviews_sample.json valid\", \"validator raises on missing keys\", \"tests green\"]}\n```"
+    },
+    {
+      "id": 2,
+      "subject": "Task 2: Places API Client",
+      "status": "pending",
+      "blockedBy": [1],
+      "description": "**Goal:** fetcher/places_api.py ruft Places API (New), Tests mit Mock.\n\n**Files:**\n- Create: fetcher/places_api.py, tests/test_places_api.py\n\n**Verify:** pytest tests/test_places_api.py -v → 2+ PASS\n\n```json:metadata\n{\"files\": [\"fetcher/places_api.py\", \"tests/test_places_api.py\"], \"verifyCommand\": \"pytest tests/test_places_api.py -v\", \"acceptanceCriteria\": [\"fetch_place sets correct headers\", \"HTTP error raises RuntimeError\"]}\n```"
+    },
+    {
+      "id": 3,
+      "subject": "Task 3: Normalizer",
+      "status": "pending",
+      "blockedBy": [1],
+      "description": "**Goal:** fetcher/normalize.py transformiert Places-Response → reviews.json Schema.\n\n**Files:**\n- Create: fetcher/normalize.py, tests/test_normalize.py\n\n**Verify:** pytest tests/test_normalize.py -v → 4+ PASS\n\n```json:metadata\n{\"files\": [\"fetcher/normalize.py\", \"tests/test_normalize.py\"], \"verifyCommand\": \"pytest tests/test_normalize.py -v\", \"acceptanceCriteria\": [\"output passes validate_reviews_json\", \"German month names in date_display\", \"missing photoUri → None\"]}\n```"
+    },
+    {
+      "id": 4,
+      "subject": "Task 4: Avatar-Cache",
+      "status": "pending",
+      "blockedBy": [1],
+      "description": "**Goal:** fetcher/avatar_cache.py lädt Avatare idempotent herunter nach docs/avatars/.\n\n**Files:**\n- Create: fetcher/avatar_cache.py, tests/test_avatar_cache.py\n\n**Verify:** pytest tests/test_avatar_cache.py -v → 4+ PASS\n\n```json:metadata\n{\"files\": [\"fetcher/avatar_cache.py\", \"tests/test_avatar_cache.py\"], \"verifyCommand\": \"pytest tests/test_avatar_cache.py -v\", \"acceptanceCriteria\": [\"downloads and stores by sha1 hash\", \"idempotent\", \"None on HTTP error\"]}\n```"
+    },
+    {
+      "id": 5,
+      "subject": "Task 5: Fetch-Orchestrator",
+      "status": "pending",
+      "blockedBy": [2, 3, 4],
+      "description": "**Goal:** fetcher/fetch.py bindet Phase-1 zusammen, business_api.py als Phase-2-Stub.\n\n**Files:**\n- Create: fetcher/fetch.py, fetcher/business_api.py, tests/test_fetch.py\n\n**Verify:** pytest tests/test_fetch.py -v → 3+ PASS\n\n```json:metadata\n{\"files\": [\"fetcher/fetch.py\", \"fetcher/business_api.py\", \"tests/test_fetch.py\"], \"verifyCommand\": \"pytest tests/test_fetch.py -v\", \"acceptanceCriteria\": [\"writes valid reviews.json\", \"missing env → SystemExit\", \"REVIEWS_SOURCE=business raises NotImplementedError\"]}\n```"
+    },
+    {
+      "id": 6,
+      "subject": "Task 6: Widget-CSS",
+      "status": "pending",
+      "blockedBy": [0],
+      "description": "**Goal:** docs/widget.css mit Header, Slider, Card, Modal, Responsive, Skeleton, a11y.\n\n**Files:**\n- Create: docs/widget.css\n\n**Verify:** Manuelle Browser-Vorschau (erst nach Task 7 sinnvoll)\n\n```json:metadata\n{\"files\": [\"docs/widget.css\"], \"verifyCommand\": \"python -m http.server 8000 --directory docs\", \"acceptanceCriteria\": [\"scroll-snap slider\", \"responsive breakpoints 1024/768\", \"skeleton pulse animation\", \"prefers-reduced-motion respected\"]}\n```"
+    },
+    {
+      "id": 7,
+      "subject": "Task 7: Widget-JS",
+      "status": "pending",
+      "blockedBy": [6],
+      "description": "**Goal:** docs/widget.js holt reviews.json, rendert, bindet Slider + Modal.\n\n**Files:**\n- Create: docs/widget.js, docs/index.html\n\n**Verify:** python -m http.server 8000 --directory docs → Widget rendert mit reviews_sample.json\n\n```json:metadata\n{\"files\": [\"docs/widget.js\", \"docs/index.html\"], \"verifyCommand\": \"python -m http.server 8000 --directory docs\", \"acceptanceCriteria\": [\"renders into #ffs-google-reviews\", \"hides on error\", \"keyboard navigation works\", \"modal opens on card click\"]}\n```"
+    },
+    {
+      "id": 8,
+      "subject": "Task 8: GitHub Actions Workflow",
+      "status": "pending",
+      "blockedBy": [5],
+      "description": "**Goal:** .github/workflows/fetch.yml — täglicher Cron, commit-if-changed.\n\n**Files:**\n- Create: .github/workflows/fetch.yml\n\n**Verify:** Nach Push + manueller workflow_dispatch → grüner Run\n\n```json:metadata\n{\"files\": [\".github/workflows/fetch.yml\"], \"verifyCommand\": \"(manual) GitHub Actions → Run workflow\", \"acceptanceCriteria\": [\"daily cron configured\", \"commits only on change\", \"uses contents:write permission\"]}\n```"
+    },
+    {
+      "id": 9,
+      "subject": "Task 9: README + Dokumentation",
+      "status": "pending",
+      "blockedBy": [5, 7, 8],
+      "description": "**Goal:** README erklärt Setup, Entwicklung, Phase-2-Umschaltung, Duda-Einbettung, Troubleshooting.\n\n**Files:**\n- Modify: README.md\n\n**Verify:** cat README.md | head -40 → sinnvoll\n\n```json:metadata\n{\"files\": [\"README.md\"], \"verifyCommand\": \"cat README.md\", \"acceptanceCriteria\": [\"all sections present\", \"commands copy-pasteable\", \"links to spec + plan\"]}\n```"
+    },
+    {
+      "id": 10,
+      "subject": "Task 10: GitHub-Setup (interaktiv)",
+      "status": "pending",
+      "blockedBy": [9],
+      "description": "**Goal:** GitHub-Repo + Pages + Secret konfiguriert, erster Action-Run grün, echte reviews.json live.\n\n**Files:** keine (Konfiguration auf GitHub)\n\n**Verify:** curl -sI https://firefly1502.github.io/rezensionintegrator/reviews.json → HTTP/2 200\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"curl -sI https://firefly1502.github.io/rezensionintegrator/reviews.json\", \"acceptanceCriteria\": [\"repo public on GitHub\", \"Pages active from /docs\", \"GOOGLE_MAPS_API_KEY secret set\", \"first workflow run green\"]}\n```"
+    },
+    {
+      "id": 11,
+      "subject": "Task 11: Duda-Einbettung (build-only)",
+      "status": "pending",
+      "blockedBy": [10],
+      "description": "**Goal:** Widget auf versteckter Duda-Testseite eingebaut und getestet.\n\n**Files:** keine (Duda-Konfiguration)\n\n**Verify:** Browser auf https://www.fullflightsim.de/widget-test zeigt Widget\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"(manual) Browser check\", \"acceptanceCriteria\": [\"widget renders on Duda test page\", \"responsive OK\", \"modal works\", \"page noindex\"]}\n```"
+    }
+  ],
+  "lastUpdated": "2026-04-21T00:00:00Z"
+}
