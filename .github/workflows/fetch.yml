@@ -1,0 +1,44 @@
+name: Fetch Reviews
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: fetcher/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r fetcher/requirements.txt
+
+      - name: Run fetcher
+        env:
+          REVIEWS_SOURCE: places
+          PLACE_ID: ChIJZybyS393vUcRmrlk8nxVyuE
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: python -m fetcher.fetch
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain docs/reviews.json docs/avatars/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/reviews.json docs/avatars/
+            git commit -m "chore(reviews): update reviews.json ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to reviews.json/avatars — skipping commit."
+          fi
