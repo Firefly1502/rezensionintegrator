@@ -1,0 +1,244 @@
+/* Rezensionintegrator Widget — Full Flight Sim
+ * Scope: alle Styles sind unter .ffs-gr-widget genested, damit sie
+ * nicht in die Duda-Seite leaken.
+ */
+
+.ffs-gr-widget {
+  --ffs-gold: #D4A94C;
+  --ffs-star: #FBBC04;
+  --ffs-text: #1f1f1f;
+  --ffs-muted: #5f6368;
+  --ffs-card-bg: #ffffff;
+  --ffs-border: #e8eaed;
+  --ffs-shadow: 0 1px 3px rgba(0,0,0,.08);
+  --ffs-shadow-hover: 0 4px 12px rgba(0,0,0,.12);
+  --ffs-radius: 10px;
+
+  box-sizing: border-box;
+  color: var(--ffs-text);
+  font: inherit;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.ffs-gr-widget *,
+.ffs-gr-widget *::before,
+.ffs-gr-widget *::after { box-sizing: inherit; }
+
+/* Header */
+.ffs-gr-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--ffs-border);
+  margin-bottom: 1rem;
+}
+.ffs-gr-header .logo { width: 26px; height: 26px; flex-shrink: 0; }
+.ffs-gr-header .label { font-weight: 600; }
+.ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 1px; }
+.ffs-gr-header .score { font-weight: 700; font-size: 1.15rem; }
+.ffs-gr-header .separator { color: var(--ffs-border); }
+.ffs-gr-header .count { color: var(--ffs-muted); }
+.ffs-gr-header .cta-button {
+  margin-left: auto;
+  padding: .6rem 1.1rem;
+  background: var(--ffs-gold);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: filter .15s ease, transform .15s ease;
+}
+.ffs-gr-header .cta-button:hover { filter: brightness(1.05); transform: translateY(-1px); }
+.ffs-gr-header .cta-button:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+
+/* Slider */
+.ffs-gr-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.ffs-gr-track {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: .25rem .25rem 1rem .25rem;
+  scrollbar-width: thin;
+}
+.ffs-gr-track::-webkit-scrollbar { height: 6px; }
+.ffs-gr-track::-webkit-scrollbar-thumb { background: var(--ffs-border); border-radius: 3px; }
+
+/* Nav-Arrows */
+.ffs-gr-slider .nav-prev,
+.ffs-gr-slider .nav-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: 1px solid var(--ffs-border);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  box-shadow: var(--ffs-shadow);
+  opacity: 0;
+  transition: opacity .2s ease;
+  z-index: 2;
+}
+.ffs-gr-slider:hover .nav-prev,
+.ffs-gr-slider:hover .nav-next,
+.ffs-gr-slider:focus-within .nav-prev,
+.ffs-gr-slider:focus-within .nav-next { opacity: 1; }
+.ffs-gr-slider .nav-prev { left: -8px; }
+.ffs-gr-slider .nav-next { right: -8px; }
+.ffs-gr-slider .nav-prev[disabled],
+.ffs-gr-slider .nav-next[disabled] { opacity: .3 !important; cursor: default; }
+
+/* Karte */
+.review-card {
+  flex: 0 0 calc(25% - .75rem);
+  min-width: 240px;
+  background: var(--ffs-card-bg);
+  border: 1px solid var(--ffs-border);
+  border-radius: var(--ffs-radius);
+  padding: 1rem;
+  scroll-snap-align: start;
+  box-shadow: var(--ffs-shadow);
+  transition: transform .15s ease, box-shadow .15s ease;
+  cursor: pointer;
+}
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ffs-shadow-hover);
+}
+.review-card .author-row {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin-bottom: .5rem;
+}
+.review-card .avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ccc;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: .95rem;
+  object-fit: cover;
+}
+.review-card .meta { min-width: 0; flex: 1; }
+.review-card .name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.review-card .date { color: var(--ffs-muted); font-size: .8rem; }
+.review-card .rating-row { margin-bottom: .4rem; }
+.review-card .rating-row .stars { color: var(--ffs-star); }
+.review-card .rating-row .verified {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: .3rem;
+  color: #4285F4;
+}
+.review-card .text {
+  font-size: .9rem;
+  line-height: 1.45;
+  color: var(--ffs-text);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.review-card .read-more {
+  display: inline-block;
+  margin-top: .5rem;
+  color: var(--ffs-gold);
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+/* Skeleton */
+.review-card.skeleton { pointer-events: none; cursor: default; }
+.review-card.skeleton .avatar,
+.review-card.skeleton .sk-line {
+  background: linear-gradient(90deg, #eee 0%, #f5f5f5 50%, #eee 100%);
+  background-size: 200% 100%;
+  animation: ffs-sk-pulse 1.2s infinite;
+  color: transparent;
+}
+.review-card.skeleton .sk-line { height: .7rem; border-radius: 3px; margin: .3rem 0; }
+.review-card.skeleton .sk-line.short { width: 40%; }
+
+@keyframes ffs-sk-pulse {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Responsive */
+@media (max-width: 1023px) {
+  .review-card { flex: 0 0 calc(50% - .5rem); }
+  .ffs-gr-slider .nav-prev,
+  .ffs-gr-slider .nav-next { opacity: 1; }
+}
+@media (max-width: 767px) {
+  .review-card { flex: 0 0 calc(100% - .5rem); }
+  .ffs-gr-header .cta-button { margin-left: 0; width: 100%; text-align: center; }
+}
+
+/* Modal */
+.ffs-gr-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 1rem;
+}
+.ffs-gr-modal[open] { display: flex; }
+.ffs-gr-modal .box {
+  background: #fff;
+  border-radius: var(--ffs-radius);
+  max-width: 600px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  position: relative;
+}
+.ffs-gr-modal .close {
+  position: absolute;
+  top: .5rem;
+  right: .75rem;
+  background: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.ffs-gr-modal .box .owner-reply {
+  margin-top: 1rem;
+  padding: .75rem 1rem;
+  border-left: 3px solid var(--ffs-gold);
+  background: #faf6ec;
+  border-radius: 0 var(--ffs-radius) var(--ffs-radius) 0;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .ffs-gr-widget *,
+  .ffs-gr-widget *::before,
+  .ffs-gr-widget *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
