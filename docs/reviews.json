@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-21T21:21:47Z",
+  "source": "places_api",
+  "business": {
+    "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
+    "name": "Full Flight Sim - A320 Flugsimulator",
+    "rating_avg": 5,
+    "rating_count": 219,
+    "google_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
+  },
+  "reviews": [
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKbExYazViRGxsYkhob05HWnBUbm96Tm5sWlZYYxAB",
+      "author": {
+        "name": "Darko Petrešin",
+        "initial": "D",
+        "avatar_url": "avatars/d16229c640d08075e984ed999eaa703a455fc936.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/112532881187973436799/reviews"
+      },
+      "rating": 5,
+      "date_iso": "2025-06-02",
+      "date_display": "2 Juni 2025",
+      "text": "My experience with the Airbus A320 full motion flight simulator was absolutely incredible! The moment I entered the cockpit, I was blown away by the immersive realism. The full motion technology made every turn, climb, and descent feel authentic, perfectly mimicking the sensations of flying an actual A320. The visuals were stunning, with highly detailed landscapes and dynamic weather effects that heightened the experience. The controls and systems were incredibly lifelike, and the instructor was fantastic—knowledgeable, patient, and skilled at customizing the session to my level. From takeoff to landing, everything ran seamlessly, with the motion adding an exhilarating layer of realism. This was a thrilling, unforgettable adventure that I’d wholeheartedly recommend to any aviation fan or curious newcomer. Truly a wonderful experience!",
+      "language": "en",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUNlbU8tcWN3EAE",
+      "author": {
+        "name": "Ciro Perez",
+        "initial": "C",
+        "avatar_url": "avatars/31021b0091a31bb3a661154183849ea048bde76c.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/101584652382040177677/reviews"
+      },
+      "rating": 5,
+      "date_iso": "2022-09-05",
+      "date_display": "5 September 2022",
+      "text": "Amazing experience!\nNo matter if you are an airline pilot looking for preparation for an exam, or a Microsoft Flight Simulator enthusiast looking for trying the real thing, this place provides a real A320 cockpit, full motion and with all systems implemented at a more than reasonable price.\n\nFor me, being a flightsimmer for more than 25 years this has been an incredible experience that needed to be done, and it has not disappointed. Indeed it has been MUCH better than expected. Both Michael and Maurice went far beyond the extra mile and converted a 90 min session in one of the most amazing experiences of my life.\n\nThe sim is new, fully functional, nice graphics, and as I’m told by a real A330 pilot as close as it can be to the real thing.\nI was able to decide what I wanted to do and to try, and got help, support and advices from the team, before, after and during the flights. All session was in English (as I don’t speak German)\n\nIn case of doubt when contracting, I would advise to contact them by email, as they reply pretty fast and efficiently.\n\nOverall, a great gratitude to Michael and Maurice for making my experience unforgettable, a place I can surely recommend and a place I will return as soon as I put a feet again in Germany",
+      "language": "en",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT201aGJsWlZORzVZZG5kQ2JrbFNVbXMwTVhvNE5GRRAB",
+      "author": {
+        "name": "Андрей Андрей",
+        "initial": "А",
+        "avatar_url": "avatars/b0c2d03c70864794d7f3982c1fbb25df30519a37.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/111092268508117268910/reviews"
+      },
+      "rating": 5,
+      "date_iso": "2025-11-22",
+      "date_display": "22 November 2025",
+      "text": "Super friendly administrator of the flight simulator. It’s more for fun and price is affordable to try yourself as a pilot.\nIf you are professional aviator with CPL or even type rated it might be very beneficial to prepare for job interview, revise some procedure and memory items because layout of cockpit very realistic.",
+      "language": "en",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT25weVJIZEZVRk5qT1RZeGJ6UmhkQzA1VGtkMGFFRRAB",
+      "author": {
+        "name": "Amon Schneider",
+        "initial": "A",
+        "avatar_url": "avatars/6f3a2ead55def255c9fd3fb335e6f307e26f2f37.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/115400258738494013919/reviews"
+      },
+      "rating": 5,
+      "date_iso": "2026-01-15",
+      "date_display": "15 Januar 2026",
+      "text": "Once again, a great experience. I keep going back to fly with Michael. He has extensive knowledge of the A320 and is a very good instructor.  The simulator operates flawlessly, keeps getting better every time (new realistic features added)  and keeps improving every time, getting closer and closer to the real world plane. Totally recommended for any one who wishes to train or enjoy the experience.",
+      "language": "en",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT201dWMySmxjRTVJZUd3M2JuRk5XbFUyZGtkemQwRRAB",
+      "author": {
+        "name": "Dor Yovel",
+        "initial": "D",
+        "avatar_url": "avatars/5cd184fef802be2009ca765e02f128402e428992.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/101955873391184696868/reviews"
+      },
+      "rating": 5,
+      "date_iso": "2026-01-13",
+      "date_display": "13 Januar 2026",
+      "text": "A greate simulator with a great instructor. Highly recommended",
+      "language": "en",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    }
+  ]
+}
