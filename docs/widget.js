@@ -60,12 +60,18 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
-  function renderAvatar(author) {
-    if (author.avatar_url) {
-      return `<img class="avatar" src="${escapeHtml(resolveUrl(author.avatar_url))}" alt="${escapeHtml(author.name)}" loading="lazy">`;
-    }
+  function avatarInitialHtml(author) {
     const color = avatarColor(author.name || '?');
     return `<div class="avatar" style="background:${color}" aria-hidden="true">${escapeHtml(author.initial || '?')}</div>`;
+  }
+
+  function renderAvatar(author) {
+    if (author.avatar_url) {
+      // Fallback auf Initial wenn das Bild nicht lädt (Safari Mobile zeigt sonst ein blaues Fragezeichen).
+      const fallback = avatarInitialHtml(author).replace(/"/g, '&quot;');
+      return `<img class="avatar" src="${escapeHtml(resolveUrl(author.avatar_url))}" alt="${escapeHtml(author.name)}" loading="lazy" onerror="this.outerHTML=this.getAttribute('data-fallback')" data-fallback="${fallback}">`;
+    }
+    return avatarInitialHtml(author);
   }
 
   function renderCard(review) {
