@@ -1,0 +1,35 @@
+{
+  "id": "ChIJZybyS393vUcRmrlk8nxVyuE",
+  "displayName": { "text": "Full Flight Sim", "languageCode": "de" },
+  "rating": 5.0,
+  "userRatingCount": 217,
+  "googleMapsUri": "https://maps.google.com/?cid=16252113413421686170",
+  "reviews": [
+    {
+      "name": "places/ChIJ.../reviews/ChZDSU",
+      "relativePublishTimeDescription": "vor 5 Tagen",
+      "rating": 5,
+      "text": { "text": "Absolut geiles Erlebnis!", "languageCode": "de" },
+      "originalText": { "text": "Absolut geiles Erlebnis!", "languageCode": "de" },
+      "authorAttribution": {
+        "displayName": "Max Mustermann",
+        "uri": "https://www.google.com/maps/contrib/sample1",
+        "photoUri": "https://lh3.googleusercontent.com/a/sample1=s128-c-rp-mo-br100"
+      },
+      "publishTime": "2026-04-16T10:22:14Z"
+    },
+    {
+      "name": "places/ChIJ.../reviews/ChZDSV",
+      "relativePublishTimeDescription": "vor 11 Tagen",
+      "rating": 5,
+      "text": { "text": "Top Beratung, toller Simulator.", "languageCode": "de" },
+      "originalText": { "text": "Top Beratung, toller Simulator.", "languageCode": "de" },
+      "authorAttribution": {
+        "displayName": "Juville Beats",
+        "uri": "https://www.google.com/maps/contrib/sample2",
+        "photoUri": "https://lh3.googleusercontent.com/a/sample2=s128-c-rp-mo-br100"
+      },
+      "publishTime": "2026-04-10T09:00:00Z"
+    }
+  ]
+}

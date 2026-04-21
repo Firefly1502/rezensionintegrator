@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated_at": "2026-04-21T03:00:00Z",
+  "source": "places_api",
+  "business": {
+    "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
+    "name": "Full Flight Sim",
+    "rating_avg": 5.0,
+    "rating_count": 217,
+    "google_url": "https://maps.google.com/?cid=16252113413421686170",
+    "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
+  },
+  "reviews": [
+    {
+      "id": "sample-1",
+      "author": {
+        "name": "Max Mustermann",
+        "initial": "M",
+        "avatar_url": "avatars/abc123.jpg",
+        "profile_url": "https://www.google.com/maps/contrib/sample1"
+      },
+      "rating": 5,
+      "date_iso": "2026-04-16",
+      "date_display": "16 April 2026",
+      "text": "Absolut geiles Erlebnis! Der A320-Simulator war der Hammer.",
+      "language": "de",
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/?cid=16252113413421686170"
+    },
+    {
+      "id": "sample-2",
+      "author": {
+        "name": "Juville Beats",
+        "initial": "J",
+        "avatar_url": null,
+        "profile_url": "https://www.google.com/maps/contrib/sample2"
+      },
+      "rating": 5,
+      "date_iso": "2026-04-10",
+      "date_display": "10 April 2026",
+      "text": "Top Beratung, toller Simulator. Kommen wieder!",
+      "language": "de",
+      "verified": true,
+      "photos": [],
+      "owner_reply": {
+        "text": "Vielen Dank! Freut uns sehr.",
+        "date_iso": "2026-04-11"
+      },
+      "source_url": "https://maps.google.com/?cid=16252113413421686170"
+    }
+  ]
+}
