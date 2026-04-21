@@ -119,7 +119,7 @@
 .ffs-gr-header .google-wordmark {
   font-family: 'Poppins', system-ui, sans-serif;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.35rem;
   line-height: 1;
   letter-spacing: -.02em;
   flex-shrink: 0;
@@ -129,11 +129,12 @@
 .ffs-gr-header .stars,
 .ffs-gr-header .score,
 .ffs-gr-header .count {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 700;
+  line-height: 1;
 }
 .ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; }
-.ffs-gr-header .separator { color: #dadce0; font-weight: 300; font-size: 1.2rem; }
+.ffs-gr-header .separator { color: #dadce0; font-weight: 300; font-size: 1.05rem; line-height: 1; }
 .ffs-gr-header .cta-button {
   margin-left: auto;
   padding: .7rem 1.3rem;
