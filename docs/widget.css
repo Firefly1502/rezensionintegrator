@@ -191,6 +191,8 @@
 /* Karte */
 .review-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   flex: 0 0 calc(25% - .75rem);
   min-width: 240px;
   min-height: 420px;
@@ -241,16 +243,19 @@
 }
 .review-card .text {
   font-size: .9rem;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--ffs-text);
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 14;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 0;
 }
 .review-card .read-more {
   display: inline-block;
-  margin-top: .5rem;
+  /* nach unten an die Karte pinnen, damit Text den ganzen Raum nutzt */
+  margin-top: auto;
+  padding-top: .5rem;
   color: #5f6368;
   font-size: .85rem;
   font-weight: 500;
