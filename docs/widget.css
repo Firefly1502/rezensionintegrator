@@ -301,7 +301,7 @@
   .ffs-gr-slider .nav-next { opacity: 1; }
 }
 @media (max-width: 767px) {
-  .review-card { flex: 0 0 calc(100% - .5rem); }
+  .review-card { flex: 0 0 100%; }
   .ffs-gr-header {
     justify-content: center;
     gap: .6rem;
