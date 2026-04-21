@@ -103,28 +103,37 @@
 .ffs-gr-widget *::before,
 .ffs-gr-widget *::after { box-sizing: inherit; }
 
-/* Header */
+/* Header — eigene weiße Box, funktioniert auf jedem Seitenhintergrund */
 .ffs-gr-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: .75rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ffs-border);
+  gap: .85rem;
+  padding: 1rem 1.25rem;
   margin-bottom: 1rem;
-  color: var(--ffs-header-color);
+  background: #fff;
+  color: #1f1f1f;
+  border-radius: var(--ffs-radius);
+  box-shadow: var(--ffs-shadow);
 }
-.ffs-gr-header .logo { width: 26px; height: 26px; flex-shrink: 0; }
+.ffs-gr-header .google-wordmark {
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1;
+  letter-spacing: -.02em;
+  flex-shrink: 0;
+}
 .ffs-gr-header .label { font-weight: 600; }
 .ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; font-size: 1.4rem; }
 .ffs-gr-header .score { font-weight: 700; font-size: 1.15rem; }
-.ffs-gr-header .separator { color: var(--ffs-header-muted); opacity: .5; }
-.ffs-gr-header .count { color: var(--ffs-header-muted); }
+.ffs-gr-header .separator { color: #dadce0; font-weight: 300; }
+.ffs-gr-header .count { color: #1f1f1f; }
 .ffs-gr-header .cta-button {
   margin-left: auto;
-  padding: .65rem 1.2rem;
+  padding: .7rem 1.3rem;
   background: var(--ffs-gold);
-  color: #fff;
+  color: #1f1f1f;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
@@ -181,6 +190,7 @@
 
 /* Karte */
 .review-card {
+  position: relative;
   flex: 0 0 calc(25% - .75rem);
   min-width: 240px;
   background: var(--ffs-card-bg);
@@ -240,9 +250,18 @@
 .review-card .read-more {
   display: inline-block;
   margin-top: .5rem;
-  color: var(--ffs-gold);
+  color: #5f6368;
   font-size: .85rem;
-  font-weight: 600;
+  font-weight: 500;
+}
+.review-card .google-g {
+  position: absolute;
+  top: .85rem;
+  right: .85rem;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  opacity: .95;
 }
 
 /* Skeleton */
