@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-05-02T05:41:11Z",
+  "updated_at": "2026-05-03T06:08:37Z",
   "source": "places_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5,
-    "rating_count": 226,
+    "rating_count": 228,
     "google_url": "https://maps.google.com/?cid=16269910598960331162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
