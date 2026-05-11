@@ -235,7 +235,7 @@
       if (r) mountModal(r);
     });
 
-    if (rotateTimer) clearInterval(rotateTimer);
+    if (rotateTimer) { clearInterval(rotateTimer); rotateTimer = null; }
     if (CFG.autoRotate > 0) {
       rotateTimer = setInterval(() => scrollBy(1), CFG.autoRotate * 1000);
     }
