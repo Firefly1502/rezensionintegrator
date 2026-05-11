@@ -1,0 +1,33 @@
+{
+  "planPath": "docs/superpowers/plans/2026-05-11-konfigurator.md",
+  "tasks": [
+    {
+      "id": 0,
+      "subject": "Task 0: widget.css auf CSS Custom Properties umstellen",
+      "status": "pending",
+      "description": "**Goal:** Alle konfigurierbaren Werte in widget.css durch CSS Custom Properties ersetzen.\n\n**Files:**\n- Modify: `docs/widget.css`\n\n**Acceptance Criteria:**\n- [ ] --ffs-accent, --ffs-star, --ffs-card-bg, --ffs-radius definiert\n- [ ] --ffs-card-width, --ffs-card-gap, --ffs-max-lines definiert\n- [ ] CTA-Button, Sterne, Karten nutzen die Variablen\n- [ ] Widget ohne Config sieht identisch aus\n\n**Verify:** Kein Hard-Coded #ddb357 außerhalb der Variablen-Deklaration\n\n```json:metadata\n{\"files\": [\"docs/widget.css\"], \"verifyCommand\": \"grep -n '#ddb357' docs/widget.css\", \"acceptanceCriteria\": [\"--ffs-accent definiert\", \"--ffs-card-width definiert\", \"--ffs-max-lines als var() in -webkit-line-clamp\"]}\n```"
+    },
+    {
+      "id": 1,
+      "subject": "Task 1: widget.js um Config-Support erweitern",
+      "status": "pending",
+      "blockedBy": [0],
+      "description": "**Goal:** widget.js liest window.FFS_WIDGET_CONFIG, merged mit DEFAULTS, setzt CSS-Vars und respektiert alle Config-Keys.\n\n**Files:**\n- Modify: `docs/widget.js`\n\n**Acceptance Criteria:**\n- [ ] DEFAULTS + CFG-Merge vorhanden\n- [ ] CSS-Vars auf mount gesetzt (accent, star, card-bg, radius, card-width, card-gap, max-lines)\n- [ ] maxReviews + minRating filtern Reviews\n- [ ] lazyLoad via IntersectionObserver\n- [ ] arrows: always/never/desktop\n- [ ] autoRotate per setInterval\n- [ ] showHeader/showCtaButton/ctaButtonText/showDate/showAvatar\n- [ ] window.ffsWidgetBoot exportiert\n- [ ] Backwards-Compat ohne Config-Objekt\n\n**Verify:** Widget auf GitHub Pages nach Push identisch zu vorher (ohne Config-Objekt)\n\n```json:metadata\n{\"files\": [\"docs/widget.js\"], \"verifyCommand\": \"echo 'manuell prüfen: https://firefly1502.github.io/rezensionintegrator/widget-test'\", \"acceptanceCriteria\": [\"DEFAULTS definiert\", \"CFG = Object.assign\", \"lazyLoad IntersectionObserver\", \"window.ffsWidgetBoot exportiert\"]}\n```"
+    },
+    {
+      "id": 2,
+      "subject": "Task 2: tools/konfigurator.html bauen",
+      "status": "pending",
+      "blockedBy": [1],
+      "description": "**Goal:** Statische HTML-Datei mit zweigeteiltem Layout, Live-Vorschau und Embed-Code-Generator.\n\n**Files:**\n- Create: `tools/konfigurator.html`\n\n**Acceptance Criteria:**\n- [ ] Öffnet per Doppelklick ohne Server\n- [ ] Alle 16 Einstellungen als Controls vorhanden\n- [ ] Live-Vorschau lädt reviews von GitHub Pages\n- [ ] Embed-Code aktualisiert sich live\n- [ ] Kopieren-Button funktioniert\n- [ ] reviewsUrl nicht im Embed-Code\n\n**Verify:** Doppelklick → Akzentfarbe ändern → Vorschau ändert sich sofort\n\n```json:metadata\n{\"files\": [\"tools/konfigurator.html\"], \"verifyCommand\": \"echo 'manuell testen: tools/konfigurator.html im Browser öffnen'\", \"acceptanceCriteria\": [\"Live-Vorschau lädt\", \"Farb-Picker ändert Widget sofort\", \"Embed-Code enthält kein reviewsUrl\"]}\n```"
+    },
+    {
+      "id": 3,
+      "subject": "Task 3: Smoke-Test & Feinschliff",
+      "status": "pending",
+      "blockedBy": [2],
+      "description": "**Goal:** Alle Features manuell testen, Bugs fixen, PR erstellen.\n\n**Files:**\n- Modify: `docs/widget.js` (falls Bugfixes)\n- Modify: `tools/konfigurator.html` (falls Bugfixes)\n\n**Acceptance Criteria:**\n- [ ] Konfigurator öffnet und zeigt Live-Vorschau\n- [ ] Alle Controls funktionieren\n- [ ] Embed-Code korrekt\n- [ ] Produktiv-Widget auf GitHub Pages unverändert\n\n**Verify:** https://firefly1502.github.io/rezensionintegrator/widget-test nach Push\n\n```json:metadata\n{\"files\": [\"docs/widget.js\", \"tools/konfigurator.html\"], \"verifyCommand\": \"echo 'manuell: GitHub Pages widget-test aufrufen'\", \"acceptanceCriteria\": [\"Konfigurator vollständig funktional\", \"Backwards-Compat bestätigt\"]}\n```"
+    }
+  ],
+  "lastUpdated": "2026-05-11T00:00:00Z"
+}

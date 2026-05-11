@@ -124,6 +124,12 @@ Michael öffnet konfigurator.html
 | Pfeile anzeigen | Dropdown | `Desktop only` |
 | Auto-Rotate Intervall (Sek, 0=aus) | Zahl | `0` |
 
+### 5.6 Performance
+
+| Einstellung | Typ | Default |
+|---|---|---|
+| Lazy Load (erst laden wenn sichtbar) | Toggle | `an` |
+
 ### 5.5 Filter
 
 | Einstellung | Typ | Default |
@@ -195,6 +201,7 @@ const DEFAULTS = {
   autoRotate: 0,
   maxReviews: 50,
   minRating: 1,
+  lazyLoad: true,
   reviewsUrl: null   // null = relativer Pfad (Produktion), URL-String = Override (Konfigurator)
 };
 
