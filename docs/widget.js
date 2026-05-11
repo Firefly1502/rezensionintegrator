@@ -11,7 +11,7 @@
     cardBorderRadius: 12,
     cardWidth: 300,
     cardGap: 16,
-    maxLines: 8,
+    maxLines: 14,
     showDate: true,
     showAvatar: true,
     showHeader: true,

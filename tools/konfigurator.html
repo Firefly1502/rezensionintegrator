@@ -256,7 +256,7 @@
     });
     var lines = [];
     Object.keys(embedCfg).forEach(function (k) {
-      lines.push('  ' + k + ': ' + JSON.stringify(embedCfg[k]));
+      lines.push('  ' + k + ': ' + JSON.stringify(embedCfg[k]).replace(/<\/script/gi, '<\\/script'));
     });
     return '<div id="ffs-google-reviews"></div>\n' +
       '<link rel="stylesheet" href="' + GITHUB_BASE + 'widget.css">\n' +

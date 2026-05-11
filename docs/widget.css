@@ -78,7 +78,7 @@
   --ffs-radius: 12px;
   --ffs-card-width: 300px;
   --ffs-card-gap: 16px;
-  --ffs-max-lines: 8;
+  --ffs-max-lines: 14;
   --ffs-text: #1f1f1f;
   --ffs-muted: #5f6368;
   /* Header-Textfarbe — Default hell für dunkle Seiten (FFS ist dunkel).
