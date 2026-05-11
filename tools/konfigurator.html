@@ -292,10 +292,14 @@
 
   document.getElementById('copy-btn').addEventListener('click', function () {
     var ta = document.getElementById('embed-code');
+    var btn = document.getElementById('copy-btn');
     navigator.clipboard.writeText(ta.value).then(function () {
-      var btn = document.getElementById('copy-btn');
       btn.textContent = 'Kopiert!';
       setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
+    }).catch(function () {
+      ta.select();
+      btn.textContent = 'Strg+C drücken';
+      setTimeout(function () { btn.textContent = 'Kopieren'; }, 3000);
     });
   });
 
