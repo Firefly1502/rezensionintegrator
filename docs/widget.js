@@ -4,6 +4,28 @@
 (function () {
   'use strict';
 
+  const DEFAULTS = {
+    accentColor: '#ddb357',
+    starColor: '#FBBC04',
+    cardBackground: '#ffffff',
+    cardBorderRadius: 12,
+    cardWidth: 300,
+    cardGap: 16,
+    maxLines: 8,
+    showDate: true,
+    showAvatar: true,
+    showHeader: true,
+    showCtaButton: true,
+    ctaButtonText: 'Eine Bewertung schreiben',
+    arrows: 'desktop',
+    autoRotate: 0,
+    maxReviews: 50,
+    minRating: 1,
+    lazyLoad: true,
+    reviewsUrl: null
+  };
+  const CFG = Object.assign({}, DEFAULTS, window.FFS_WIDGET_CONFIG || {});
+
   const MOUNT_ID = 'ffs-google-reviews';
   const BASE_URL = new URL('./', document.currentScript.src).href;
   const JSON_URL = new URL('reviews.json', BASE_URL).href;
@@ -79,10 +101,10 @@
       <article class="review-card" data-review-id="${escapeHtml(review.id)}" tabindex="0" role="button" aria-label="Rezension von ${escapeHtml(review.author.name)} lesen">
         ${GOOGLE_G_SVG}
         <div class="author-row">
-          ${renderAvatar(review.author)}
+          ${CFG.showAvatar ? renderAvatar(review.author) : ''}
           <div class="meta">
             <div class="name">${escapeHtml(review.author.name)}</div>
-            <div class="date">${escapeHtml(review.date_display)}</div>
+            ${CFG.showDate ? `<div class="date">${escapeHtml(review.date_display)}</div>` : ''}
           </div>
         </div>
         <div class="rating-row">
@@ -115,6 +137,10 @@
   }
 
   function renderHeader(business) {
+    if (!CFG.showHeader) return '';
+    const ctaHtml = CFG.showCtaButton
+      ? `<a class="cta-button" href="${escapeHtml(business.write_review_url)}" target="_blank" rel="noopener nofollow">${escapeHtml(CFG.ctaButtonText)}</a>`
+      : '';
     return `
       <header class="ffs-gr-header">
         ${GOOGLE_WORDMARK_HTML}
@@ -123,7 +149,7 @@
         <span class="score">${Number(business.rating_avg).toFixed(1).replace('.', ',')}</span>
         <span class="separator">│</span>
         <span class="count">${escapeHtml(String(business.rating_count))} Bewertungen</span>
-        <a class="cta-button" href="${escapeHtml(business.write_review_url)}" target="_blank" rel="noopener nofollow">Eine Bewertung schreiben</a>
+        ${ctaHtml}
       </header>`;
   }
 
@@ -166,6 +192,18 @@
     const track = root.querySelector('.ffs-gr-track');
     const prev = root.querySelector('.nav-prev');
     const next = root.querySelector('.nav-next');
+
+    if (CFG.arrows === 'always') {
+      prev.style.opacity = '1';
+      next.style.opacity = '1';
+      prev.style.transition = 'none';
+      next.style.transition = 'none';
+    } else if (CFG.arrows === 'never') {
+      prev.style.display = 'none';
+      next.style.display = 'none';
+    }
+    // 'desktop' = Standard CSS (opacity bei hover) — kein JS nötig
+
     const scrollBy = dir => {
       const card = track.querySelector('.review-card');
       if (!card) return;
@@ -195,10 +233,21 @@
       const r = reviewsById.get(id);
       if (r) mountModal(r);
     });
+
+    if (CFG.autoRotate > 0) {
+      setInterval(() => scrollBy(1), CFG.autoRotate * 1000);
+    }
   }
 
   function renderWidget(mount, data) {
     mount.classList.add('ffs-gr-widget');
+    mount.style.setProperty('--ffs-accent', CFG.accentColor);
+    mount.style.setProperty('--ffs-star', CFG.starColor);
+    mount.style.setProperty('--ffs-card-bg', CFG.cardBackground);
+    mount.style.setProperty('--ffs-radius', CFG.cardBorderRadius + 'px');
+    mount.style.setProperty('--ffs-card-width', CFG.cardWidth + 'px');
+    mount.style.setProperty('--ffs-card-gap', CFG.cardGap + 'px');
+    mount.style.setProperty('--ffs-max-lines', String(CFG.maxLines));
     mount.innerHTML = `
       ${renderHeader(data.business)}
       <div class="ffs-gr-slider">
@@ -223,23 +272,42 @@
       </div>`;
   }
 
-  async function boot() {
-    const mount = document.getElementById(MOUNT_ID);
-    if (!mount) return;
+  async function loadAndRender(mount) {
     renderSkeletonState(mount);
-
     try {
-      const resp = await fetch(JSON_URL, { cache: 'no-cache' });
+      const fetchUrl = CFG.reviewsUrl || JSON_URL;
+      const resp = await fetch(fetchUrl, { cache: 'no-cache' });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       const data = await resp.json();
       if (!data || !Array.isArray(data.reviews) || !data.business) {
         throw new Error('invalid schema');
       }
-      renderWidget(mount, data);
+      let reviews = data.reviews;
+      if (CFG.minRating > 1) reviews = reviews.filter(r => r.rating >= CFG.minRating);
+      if (CFG.maxReviews > 0) reviews = reviews.slice(0, CFG.maxReviews);
+      renderWidget(mount, { ...data, reviews });
     } catch (err) {
       console.warn('[ffs-gr-widget] failed to load:', err);
       mount.style.display = 'none';
     }
+  }
+
+  async function boot() {
+    const mount = document.getElementById(MOUNT_ID);
+    if (!mount) return;
+
+    if (!CFG.lazyLoad) {
+      await loadAndRender(mount);
+      return;
+    }
+
+    renderSkeletonState(mount);
+    const observer = new IntersectionObserver(async (entries, obs) => {
+      if (!entries[0].isIntersecting) return;
+      obs.disconnect();
+      await loadAndRender(mount);
+    }, { rootMargin: '200px' });
+    observer.observe(mount);
   }
 
   if (document.readyState === 'loading') {
@@ -247,4 +315,7 @@
   } else {
     boot();
   }
+
+  // Export für Konfigurator — ermöglicht Re-Boot nach Config-Änderung
+  window.ffsWidgetBoot = boot;
 })();
