@@ -79,3 +79,71 @@ def normalize_places_response(api_response: dict, place_id: str) -> dict:
         },
         "reviews": reviews_out,
     }
+
+
+_STAR_MAP = {"ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5}
+
+
+def normalize_business_response(raw_reviews: list[dict], business_info: dict) -> dict:
+    """Normalisiert Business Profile API Reviews ins reviews.json Schema.
+
+    raw_reviews: Liste roher Review-Dicts aus mybusiness.googleapis.com/v4
+    business_info: {"place_id": ..., "name": ..., "google_url": ...}
+    """
+    place_id = business_info["place_id"]
+    write_review_url = f"https://search.google.com/local/writereview?placeid={place_id}"
+    google_url = business_info.get("google_url", "")
+
+    reviews_out = []
+    for r in raw_reviews:
+        reviewer = r.get("reviewer", {})
+        author_name = reviewer.get("displayName", "")
+        date_iso, date_display = _format_date_de(r["createTime"])
+
+        reply = r.get("reviewReply")
+        owner_reply = None
+        if reply:
+            reply_date_iso, _ = _format_date_de(reply.get("updateTime", r["createTime"]))
+            owner_reply = {
+                "text": reply.get("comment", ""),
+                "date_iso": reply_date_iso,
+            }
+
+        reviews_out.append({
+            "id": r.get("reviewId", ""),
+            "author": {
+                "name": author_name,
+                "initial": _initial(author_name),
+                "avatar_url": reviewer.get("profilePhotoUrl") or None,
+                "profile_url": None,
+            },
+            "rating": _STAR_MAP.get(r.get("starRating", ""), 0),
+            "date_iso": date_iso,
+            "date_display": date_display,
+            "text": r.get("comment", ""),
+            "language": None,
+            "verified": True,
+            "photos": [],
+            "owner_reply": owner_reply,
+            "source_url": google_url,
+        })
+
+    reviews_out.sort(key=lambda rev: rev["date_iso"], reverse=True)
+
+    rating_values = [rev["rating"] for rev in reviews_out if rev["rating"] > 0]
+    rating_avg = round(sum(rating_values) / len(rating_values), 1) if rating_values else 0.0
+
+    return {
+        "version": 1,
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "source": "business_api",
+        "business": {
+            "place_id": place_id,
+            "name": business_info["name"],
+            "rating_avg": rating_avg,
+            "rating_count": len(reviews_out),
+            "google_url": google_url,
+            "write_review_url": write_review_url,
+        },
+        "reviews": reviews_out,
+    }

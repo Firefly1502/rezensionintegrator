@@ -1,0 +1,30 @@
+[
+  {
+    "reviewId": "ChZDSUBXAB",
+    "name": "accounts/123/locations/456/reviews/ChZDSUBXAB",
+    "reviewer": {
+      "displayName": "Max Mustermann",
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/sample1=s128-c-rp-mo-br100"
+    },
+    "starRating": "FIVE",
+    "comment": "Absolut geiles Erlebnis!",
+    "createTime": "2026-04-16T10:22:14Z",
+    "updateTime": "2026-04-16T10:22:14Z"
+  },
+  {
+    "reviewId": "ChZDSUBXAC",
+    "name": "accounts/123/locations/456/reviews/ChZDSUBXAC",
+    "reviewer": {
+      "displayName": "Juville Beats",
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/sample2=s128-c-rp-mo-br100"
+    },
+    "starRating": "FIVE",
+    "comment": "Top Beratung, toller Simulator.",
+    "createTime": "2026-04-10T09:00:00Z",
+    "updateTime": "2026-04-10T09:00:00Z",
+    "reviewReply": {
+      "comment": "Danke für die tolle Bewertung!",
+      "updateTime": "2026-04-11T08:00:00Z"
+    }
+  }
+]

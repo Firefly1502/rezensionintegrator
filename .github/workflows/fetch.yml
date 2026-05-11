@@ -26,9 +26,9 @@ jobs:
 
       - name: Run fetcher
         env:
-          REVIEWS_SOURCE: places
+          REVIEWS_SOURCE: business
           PLACE_ID: ChIJZybyS393vUcRmrlk8nxVyuE
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GOOGLE_TOKEN_JSON: ${{ secrets.GOOGLE_TOKEN_JSON }}
         run: python -m fetcher.fetch
 
       - name: Commit changes
