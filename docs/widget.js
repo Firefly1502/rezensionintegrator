@@ -24,11 +24,12 @@
     lazyLoad: true,
     reviewsUrl: null
   };
-  const CFG = Object.assign({}, DEFAULTS, window.FFS_WIDGET_CONFIG || {});
+  let CFG = Object.assign({}, DEFAULTS, window.FFS_WIDGET_CONFIG || {});
 
   const MOUNT_ID = 'ffs-google-reviews';
   const BASE_URL = new URL('./', document.currentScript.src).href;
   const JSON_URL = new URL('reviews.json', BASE_URL).href;
+  let rotateTimer = null;
 
   function resolveUrl(u) {
     if (!u) return u;
@@ -162,10 +163,10 @@
         <div class="box">
           <button class="close" aria-label="Schließen">×</button>
           <div class="author-row" style="margin-bottom:1rem;">
-            ${renderAvatar(review.author)}
+            ${CFG.showAvatar ? renderAvatar(review.author) : ''}
             <div class="meta">
               <div class="name">${escapeHtml(review.author.name)}</div>
-              <div class="date">${escapeHtml(review.date_display)}</div>
+              ${CFG.showDate ? `<div class="date">${escapeHtml(review.date_display)}</div>` : ''}
             </div>
           </div>
           <div class="rating-row"><span class="stars">${starsFilled(review.rating)}</span></div>
@@ -207,7 +208,7 @@
     const scrollBy = dir => {
       const card = track.querySelector('.review-card');
       if (!card) return;
-      track.scrollBy({ left: (card.offsetWidth + 16) * dir, behavior: 'smooth' });
+      track.scrollBy({ left: (card.offsetWidth + CFG.cardGap) * dir, behavior: 'smooth' });
     };
     prev.addEventListener('click', () => scrollBy(-1));
     next.addEventListener('click', () => scrollBy(1));
@@ -234,8 +235,9 @@
       if (r) mountModal(r);
     });
 
+    if (rotateTimer) clearInterval(rotateTimer);
     if (CFG.autoRotate > 0) {
-      setInterval(() => scrollBy(1), CFG.autoRotate * 1000);
+      rotateTimer = setInterval(() => scrollBy(1), CFG.autoRotate * 1000);
     }
   }
 
@@ -293,6 +295,7 @@
   }
 
   async function boot() {
+    CFG = Object.assign({}, DEFAULTS, window.FFS_WIDGET_CONFIG || {});
     const mount = document.getElementById(MOUNT_ID);
     if (!mount) return;
 
