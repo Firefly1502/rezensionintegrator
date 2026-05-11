@@ -19,7 +19,7 @@ from pathlib import Path
 
 from fetcher.avatar_cache import cache_avatar  # noqa: F401 – imported for test-patching
 from fetcher.business_api import fetch_all_reviews as fetch_business
-from fetcher.normalize import normalize_places_response
+from fetcher.normalize import normalize_business_response, normalize_places_response
 from fetcher.places_api import fetch_place
 from fetcher.schema import validate_reviews_json
 
@@ -38,7 +38,6 @@ def run(docs_dir: Path | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
     place_id = _require_env("PLACE_ID")
-    api_key = _require_env("GOOGLE_MAPS_API_KEY")
     source = os.environ.get("REVIEWS_SOURCE", "places").lower()
 
     docs_dir = docs_dir or Path(__file__).resolve().parent.parent / "docs"
@@ -47,11 +46,13 @@ def run(docs_dir: Path | None = None) -> None:
     log.info("Fetching reviews (source=%s, place_id=%s)", source, place_id)
 
     if source == "places":
+        api_key = _require_env("GOOGLE_MAPS_API_KEY")
         raw = fetch_place(place_id, api_key)
         data = normalize_places_response(raw, place_id)
     elif source == "business":
-        fetch_business()  # hebt NotImplementedError
-        raise RuntimeError("unreachable")
+        token_json = _require_env("GOOGLE_TOKEN_JSON")
+        raw_reviews, biz_info = fetch_business(place_id, token_json)
+        data = normalize_business_response(raw_reviews, biz_info)
     else:
         raise ValueError(f"Unknown REVIEWS_SOURCE: {source!r}")
 

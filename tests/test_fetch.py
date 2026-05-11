@@ -38,9 +38,38 @@ def test_run_missing_env_raises(tmp_path, monkeypatch):
         fetch_module.run(docs_dir=tmp_path / "docs")
 
 
-def test_run_business_source_not_implemented(tmp_path, monkeypatch):
-    monkeypatch.setenv("PLACE_ID", "X")
-    monkeypatch.setenv("GOOGLE_MAPS_API_KEY", "Y")
+@patch("fetcher.fetch.fetch_business")
+@patch("fetcher.fetch.cache_avatar")
+def test_run_business_source_writes_json(mock_cache, mock_fetch, tmp_path, monkeypatch):
+    sample = json.loads(
+        (Path(__file__).parent / "fixtures" / "business_response_sample.json").read_text("utf-8")
+    )
+    biz_info = {
+        "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
+        "name": "Full Flight Sim",
+        "google_url": "https://maps.google.com/?cid=123",
+    }
+    mock_fetch.return_value = (sample, biz_info)
+    mock_cache.return_value = "avatars/fake.jpg"
+
+    docs_dir = tmp_path / "docs"
+    monkeypatch.setenv("PLACE_ID", "ChIJZybyS393vUcRmrlk8nxVyuE")
+    monkeypatch.setenv("GOOGLE_TOKEN_JSON", '{"token": "fake", "refresh_token": "r"}')
     monkeypatch.setenv("REVIEWS_SOURCE", "business")
-    with pytest.raises(NotImplementedError):
+
+    fetch_module.run(docs_dir=docs_dir)
+
+    out = docs_dir / "reviews.json"
+    assert out.exists()
+    data = json.loads(out.read_text("utf-8"))
+    assert data["version"] == 1
+    assert data["source"] == "business_api"
+    assert len(data["reviews"]) == 2
+
+
+def test_run_business_missing_token_raises(tmp_path, monkeypatch):
+    monkeypatch.setenv("PLACE_ID", "X")
+    monkeypatch.delenv("GOOGLE_TOKEN_JSON", raising=False)
+    monkeypatch.setenv("REVIEWS_SOURCE", "business")
+    with pytest.raises(SystemExit):
         fetch_module.run(docs_dir=tmp_path / "docs")
