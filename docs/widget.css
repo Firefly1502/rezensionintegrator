@@ -72,8 +72,13 @@
 }
 
 .ffs-gr-widget {
-  --ffs-gold: #ddb357;
+  --ffs-accent: #ddb357;        /* war: --ffs-gold */
   --ffs-star: #FBBC04;
+  --ffs-card-bg: #ffffff;
+  --ffs-radius: 10px;
+  --ffs-card-width: 300px;
+  --ffs-card-gap: 16px;
+  --ffs-max-lines: 8;
   --ffs-text: #1f1f1f;
   --ffs-muted: #5f6368;
   /* Header-Textfarbe — Default hell für dunkle Seiten (FFS ist dunkel).
@@ -81,11 +86,9 @@
    *   <style>.ffs-gr-widget { --ffs-header-color: #1f1f1f; }</style> */
   --ffs-header-color: #f1f3f4;
   --ffs-header-muted: #b8bcc2;
-  --ffs-card-bg: #ffffff;
   --ffs-border: #e8eaed;
   --ffs-shadow: 0 1px 3px rgba(0,0,0,.08);
   --ffs-shadow-hover: 0 4px 12px rgba(0,0,0,.12);
-  --ffs-radius: 10px;
 
   box-sizing: border-box;
   /* Header erbt Text-Farbe vom Parent (Duda-Seite), damit er auf hellem
@@ -138,7 +141,7 @@
 .ffs-gr-header .cta-button {
   margin-left: auto;
   padding: .7rem 1.3rem;
-  background: var(--ffs-gold);
+  background: var(--ffs-accent);
   color: #1f1f1f;
   border-radius: 8px;
   text-decoration: none;
@@ -156,7 +159,7 @@
 }
 .ffs-gr-track {
   display: flex;
-  gap: 1rem;
+  gap: var(--ffs-card-gap);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -200,7 +203,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(25% - .75rem);
+  flex: 0 0 var(--ffs-card-width);
   min-width: 240px;
   min-height: 420px;
   background: var(--ffs-card-bg);
@@ -253,7 +256,7 @@
   line-height: 1.5;
   color: var(--ffs-text);
   display: -webkit-box;
-  -webkit-line-clamp: 14;
+  -webkit-line-clamp: var(--ffs-max-lines);
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-bottom: 0;
@@ -357,7 +360,7 @@
 .ffs-gr-modal .box .owner-reply {
   margin-top: 1rem;
   padding: .75rem 1rem;
-  border-left: 3px solid var(--ffs-gold);
+  border-left: 3px solid var(--ffs-accent);
   background: #faf6ec;
   border-radius: 0 var(--ffs-radius) var(--ffs-radius) 0;
 }
