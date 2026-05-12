@@ -151,8 +151,8 @@
           <input type="number" id="cfg-maxLines" value="8" min="2" max="30"></div>
         <div class="field"><label>Sterngröße (px)</label>
           <input type="number" id="cfg-starSize" value="18" min="10" max="40"></div>
-        <div class="field"><label>Mindesthöhe (px, 0=auto)</label>
-          <input type="number" id="cfg-cardMinHeight" value="0" min="0" max="600"></div>
+        <div class="field"><label>Kartenhöhe (px, 0=auto)</label>
+          <input type="number" id="cfg-cardHeight" value="0" min="0" max="600"></div>
         <div class="field"><label>Datum anzeigen</label>
           <label class="toggle"><input type="checkbox" id="cfg-showDate" checked><span class="slider"></span></label></div>
         <div class="field"><label>Avatar anzeigen</label>
@@ -239,7 +239,7 @@
       cardGap:          Number(document.getElementById('cfg-cardGap').value),
       maxLines:         Number(document.getElementById('cfg-maxLines').value),
       starSize:         Number(document.getElementById('cfg-starSize').value),
-      cardMinHeight:    Number(document.getElementById('cfg-cardMinHeight').value),
+      cardHeight:       Number(document.getElementById('cfg-cardHeight').value),
       showDate:         document.getElementById('cfg-showDate').checked,
       showAvatar:       document.getElementById('cfg-showAvatar').checked,
       showHeader:       document.getElementById('cfg-showHeader').checked,

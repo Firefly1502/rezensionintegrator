@@ -80,7 +80,7 @@
   --ffs-card-gap: 16px;
   --ffs-max-lines: 14;
   --ffs-star-size: 18px;
-  --ffs-card-min-height: 0px;
+  --ffs-card-height: auto;
   --ffs-text: #1f1f1f;
   --ffs-muted: #5f6368;
   /* Header-Textfarbe — Default hell für dunkle Seiten (FFS ist dunkel).
@@ -205,7 +205,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: var(--ffs-card-min-height);
+  height: var(--ffs-card-height, auto);
   flex: 0 0 var(--ffs-card-width);
   min-width: 240px;
   min-height: 420px;
