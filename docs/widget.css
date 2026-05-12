@@ -209,7 +209,6 @@
   overflow: hidden;
   flex: 0 0 var(--ffs-card-width);
   min-width: 240px;
-  min-height: 420px;
   background: var(--ffs-card-bg);
   color: var(--ffs-text);
   border: 1px solid var(--ffs-border);
