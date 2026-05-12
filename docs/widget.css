@@ -206,6 +206,7 @@
   display: flex;
   flex-direction: column;
   height: var(--ffs-card-height, auto);
+  overflow: hidden;
   flex: 0 0 var(--ffs-card-width);
   min-width: 240px;
   min-height: 420px;
