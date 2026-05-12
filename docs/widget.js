@@ -12,6 +12,8 @@
     cardWidth: 300,
     cardGap: 16,
     maxLines: 14,
+    starSize: 18,
+    cardMinHeight: 0,
     showDate: true,
     showAvatar: true,
     showHeader: true,
@@ -250,6 +252,8 @@
     mount.style.setProperty('--ffs-card-width', CFG.cardWidth + 'px');
     mount.style.setProperty('--ffs-card-gap', CFG.cardGap + 'px');
     mount.style.setProperty('--ffs-max-lines', String(CFG.maxLines));
+    mount.style.setProperty('--ffs-star-size', CFG.starSize + 'px');
+    mount.style.setProperty('--ffs-card-min-height', CFG.cardMinHeight + 'px');
     mount.innerHTML = `
       ${renderHeader(data.business)}
       <div class="ffs-gr-slider">
