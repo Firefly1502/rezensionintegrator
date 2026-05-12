@@ -138,7 +138,7 @@
   font-weight: 700;
   line-height: 1;
 }
-.ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; }
+.ffs-gr-header .stars { color: var(--ffs-star); letter-spacing: 2px; font-size: var(--ffs-star-size); }
 .ffs-gr-header .separator { color: #dadce0; font-weight: 300; font-size: 1.05rem; line-height: 1; }
 .ffs-gr-header .cta-button {
   margin-left: auto;
