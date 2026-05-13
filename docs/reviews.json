@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-12T06:17:25Z",
+  "updated_at": "2026-05-13T06:29:00Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -26,7 +26,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, freut mich, dass es euch 3 gefallen hat ! ...nächstes mal musst du dann wieder selbst fliegen :-)\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -4685,7 +4688,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -4850,7 +4856,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Vielen Dank🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
