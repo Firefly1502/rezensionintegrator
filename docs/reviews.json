@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-14T06:27:37Z",
+  "updated_at": "2026-05-15T06:36:33Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -2956,7 +2956,7 @@
       "author": {
         "name": "Darko Petrešin",
         "initial": "D",
-        "avatar_url": "avatars/07065deaee140e2b874cbd296c7533e756b866a4.jpg",
+        "avatar_url": "avatars/badac525decdb264f43635ad7c092595bab6c444.jpg",
         "profile_url": null
       },
       "rating": 5,
