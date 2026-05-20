@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-05-18T06:59:43Z",
+  "updated_at": "2026-05-20T06:51:54Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 235,
+    "rating_count": 236,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlZsvmeaio7eAExWI_mJdC6xUEdzRHhjUKybKS6pL-eATiyHJ8Tk0FM_hr6hN6JMF6LBb6wCQ",
+      "author": {
+        "name": "Florian Luckas",
+        "initial": "F",
+        "avatar_url": "avatars/82e2b00a331fe6b3b19466eb42b1eb0d5ebc1e6d.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-19",
+      "date_display": "19 Mai 2026",
+      "text": "Ich kann Michael und den Full Flight Sim absolut empfehlen. Er nimmt sich viel Zeit zum erklären, was hilfreich ist für eine gute Screeningvorbereitung.\n\nDurch seine Vorbereitung konnte ich das Screening bestehen, was ich jederzeit wieder so machen würde. Mehr als 5 Sterne wert.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOql6csojFx2AEbc5_ieGfq5bbnVc60aU9fkQXly-2TRnEcEQwzlLrjt53Km_4qe6tNEEdw8rIQ",
       "author": {
