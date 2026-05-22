@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-21T06:56:14Z",
+  "updated_at": "2026-05-22T06:52:16Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -26,7 +26,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Florian ! Freut mich sehr dass du das Screening bestanden hast. 🥳🎉🎊\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-21"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
