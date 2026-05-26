@@ -1,16 +1,70 @@
 {
   "version": 1,
-  "updated_at": "2026-05-25T07:18:34Z",
+  "updated_at": "2026-05-26T06:50:26Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 236,
+    "rating_count": 239,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqnWQdaBg0Q743f73w2Ye4aYQPu9H0p-IA9JcCIcnODtZ4vroi9YulgGaMpLrJ6FnKDuNA9y2Q",
+      "author": {
+        "name": "Mario",
+        "initial": "M",
+        "avatar_url": "avatars/6fc2b0165c6f0c687db7b80de9742f485794ade0.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-25",
+      "date_display": "25 Mai 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqm_WitOTxLL3diHHUYN0Do9oF-rwqkgJmBgZK93qhEQ_uRJMeQGGkHD0AmbxUp4dzdeXogXSA",
+      "author": {
+        "name": "Uwe Schneidemüller",
+        "initial": "U",
+        "avatar_url": "avatars/d51b3d17cb4d241eae511f54447ff04b364a5f1b.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-25",
+      "date_display": "25 Mai 2026",
+      "text": "Die lange Anreise hat sich gelohnt. Wir waren das erste Mal hier und sicher nicht das letzte Mal. Unser Sohn 14, war total begeistert. Tolles Flugerlebnis, eine angenehme Atmosphäre und ein sympathischer Inhaber.\nViele Grüße aus Essen, Uwe,Finn und Ivonne",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqkJo0Q9JcwFlHJxaaUW3dx2nvz9-92Sd2EPJyEf8C0DJ7Df7Ov5n8iiPe8Ox5czZRmc6ZIFjA",
+      "author": {
+        "name": "Marcus",
+        "initial": "M",
+        "avatar_url": "avatars/61b658de093944098ca5143d7cd65f27f0d33d6c.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-25",
+      "date_display": "25 Mai 2026",
+      "text": "Vor ein paar Tagen durfte ich gemeinsam mit meiner Frau und ihrer Schwester 90 Min im Simulator mit Michael verbringen. Es war wirklich ein sensationelles Erlebnis und Michael ist ein sehr empathischer sowie netter Instructor. Weil es so klasse war gibt es in einer Woche einen weiteren Slot. Freue mich schon sehr darauf...",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlZsvmeaio7eAExWI_mJdC6xUEdzRHhjUKybKS6pL-eATiyHJ8Tk0FM_hr6hN6JMF6LBb6wCQ",
       "author": {
