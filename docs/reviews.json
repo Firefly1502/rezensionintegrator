@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-05-27T07:07:25Z",
+  "updated_at": "2026-05-28T06:57:53Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 239,
+    "rating_count": 241,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmuNrfZN7yietBZktHPmtlVhC3o48tizST2AWuIqIXUuP1yAacQZIu2UwGUVa0yTDiGJgFt",
+      "author": {
+        "name": "KARINA HEINE",
+        "initial": "K",
+        "avatar_url": "avatars/5a46940f08d835419955eaf9d076c8e4b6c7a450.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-27",
+      "date_display": "27 Mai 2026",
+      "text": "Super realistische Bewegungen und Sound! Es war sehr spannend auch mal selbst „vorne“ im Flugzeug zu sitzen und das Steuer in der Hand zu haben!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqljZYUTRF5LZH9JSU-bgpT76DEX5NaJ16kp8L25dR8jRHMr35-P_2OOwGNrgEkR91fafCQstQ",
+      "author": {
+        "name": "Tino Sander",
+        "initial": "T",
+        "avatar_url": "avatars/6e4e76ab537abca4a3069ee0d90445780570b7b2.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-27",
+      "date_display": "27 Mai 2026",
+      "text": "⭐⭐⭐⭐⭐\n\nAbsolut geniales Erlebnis!\nDer Full-Motion-Simulator war unglaublich realistisch und der Instruktor super freundlich, entspannt und professionell. Man fühlt sich wirklich wie im echten Cockpit der A320. Besonders der Abendflug von Humberto Delgado Airport (LPPT) nach Madeira Airport (LPMA) war einfach spektakulär – inklusive wunderschöner Abendstimmung und anspruchsvollem Anflug auf Madeira. Unser Sohn war komplett begeistert – definitiv eines der besten Erlebnisse überhaupt. Klare Empfehlung für alle Flugsimulator- und Aviation-Fans! Wir kommen auf jeden Fall wieder! ✈️",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqnWQdaBg0Q743f73w2Ye4aYQPu9H0p-IA9JcCIcnODtZ4vroi9YulgGaMpLrJ6FnKDuNA9y2Q",
       "author": {
@@ -26,7 +62,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Mario! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-27"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -44,7 +83,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Uwe – freut mich, dass die Anreise sich gelohnt hat und dass Finn so viel Spaß beim Fliegen hatte. Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-27"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -62,7 +104,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Marcus – Ich freue mich schon auf unseren nächsten gemeinsamen Flug. Das Flugzeug steht noch in Las Vegas ;-)...\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-27"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
