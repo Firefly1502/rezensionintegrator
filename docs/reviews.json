@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-05-31T07:00:47Z",
+  "updated_at": "2026-06-01T08:38:35Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 242,
+    "rating_count": 243,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmSHfkDMglU6Mvw8Kg3uBC19MVs9uhRX_OrZedA-gUiIYuz5c_YI6WB3-IHdAGRQxyznMZTUw",
+      "author": {
+        "name": "Stephan Schnaitmann",
+        "initial": "S",
+        "avatar_url": "avatars/e8ea89fe1175886b06752e844b39b7889393dbbb.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-31",
+      "date_display": "31 Mai 2026",
+      "text": "Ich war nur Beobachter, da ich es als Geburtstagsgeschenk für jemanden gebucht hatte. Das Briefing am Anfang war sehr informativ. Der eigentliche Flug war super gestaltet. Sowohl Erklärung, was man machen soll: Start, Kurs folgen, Landung,... als auch ein Gefühl für das Flugzeug entwickeln: \"Ziehen sie mal die Nase des Flugzeugs maximal nach oben\". \"Jetzt mal mit mehr Wind und Wetter.\"\nDefinitiv Empfehlenswert",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmqdwM5WK-3XPMtE4Ni_piFiq25CixjnpTVGZY5iEKaHVjvA7_qOR4ta9jaF5TCLi8ecrwEtA",
       "author": {
