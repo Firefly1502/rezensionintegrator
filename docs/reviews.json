@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-01T08:38:35Z",
+  "updated_at": "2026-06-02T07:27:25Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -2293,7 +2293,7 @@
       "author": {
         "name": "Tim Petana",
         "initial": "T",
-        "avatar_url": "avatars/c2735e5f084e927aa62082cb1e6ebb4f506ccc1d.jpg",
+        "avatar_url": "avatars/5c958494eb15d8f509f712c45792839384185033.jpg",
         "profile_url": null
       },
       "rating": 5,
