@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-02T07:27:25Z",
+  "updated_at": "2026-06-03T08:21:56Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 243,
+    "rating_count": 244,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkb7G44fRu3Vr255q5I5WENU0_7YZPqeoDrXdzC4I-4-NkpUl4TO89-dlAd-ZrULxViiZo4",
+      "author": {
+        "name": "Leonardo",
+        "initial": "L",
+        "avatar_url": "avatars/1c85a8e46323e8de0109ac21ab6c56e877d588de.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-02",
+      "date_display": "2 Juni 2026",
+      "text": "Sehr coole Erfahrung. Man hat sich direkt wohlgefühlt und es wurde alles bestens erklärt. Besonders positiv fand ich die grosse Flexibilität bei der Flugplanung – man kann Strecken und das Szenario nach den eigenen Wünschen gestalten. Jedem Aviatik-Fan oder Simulator-Enthusiasten definitiv zu empfehlen.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmSHfkDMglU6Mvw8Kg3uBC19MVs9uhRX_OrZedA-gUiIYuz5c_YI6WB3-IHdAGRQxyznMZTUw",
       "author": {
