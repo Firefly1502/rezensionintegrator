@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-04T07:27:00Z",
+  "updated_at": "2026-06-05T07:11:56Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -26,7 +26,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Grüezi Leonardo – freut mich, dass du ein tolles Erlebnis hattest. Komm sehr gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-04"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -44,7 +47,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Stephan – freut mich, dass das Geburtstagsgeschenk so gut angekommen ist und dass die Anleitung gepasst hat. Gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-04"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -62,7 +68,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Joseph – freut mich, dass alles gepasst hat. Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-04"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -80,7 +89,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Liebe Karina, vielen Dank für die fünf Sterne – freut mich, dass Euch beiden das Fliegen Spaß gemacht hat!\n\nBis hoffentlich bald mal wieder.\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-04"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -98,7 +110,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Tino – freut mich, dass Euch der Flug und die Route so gut gefallen hat. Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-04"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
