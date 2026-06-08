@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-07T07:08:24Z",
+  "updated_at": "2026-06-08T08:13:54Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 245,
+    "rating_count": 246,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmvkhS9FAQEB5Frf7ZPbCrIY6wmW3bu1EdfEqjtNx2m7fzulFaR_F4YaQF2QvhVsghLfRhnCQ",
+      "author": {
+        "name": "Sabrina K.",
+        "initial": "S",
+        "avatar_url": "avatars/506427e2c5130df5b5f2fb3ec2548d0ac091b1fe.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-07",
+      "date_display": "7 Juni 2026",
+      "text": "Was für ein fantastisches Erlebnis! Der Flugsimulator war eine Überraschung zum Geburtstag meines Mannes und er war absolut begeistert. Die Technik ist unglaublich realistisch, und dank der professionellen  Einweisung von Michael fühlt man sich sofort wie ein echter Pilot. Ein unvergessliches Abenteuer für uns alle, vielen Dank – absolute Weiterempfehlung!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqn8iUIBbdXXkSjHa903qD0FP05pRNcxMlEdXDvhKSvtqUZO9BdYcZLTXrXXldODNy_0XZC9",
       "author": {
@@ -1731,11 +1749,11 @@
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
-      "id": "AbFvOqnoWMFTBNZqw9yns1RturrwWLOjTIG04IbLC3Ax3_aq_1oydoeq9KpuGb2DNpuMBscEYLXbxw",
+      "id": "AbFvOqki5EDlTIzN_lJ9FLBzANsVmWdwVsh3TAIobXbjGTtKwShn_KpO9h16ldF3TFehFlKRkSV3Pg",
       "author": {
-        "name": "Kaan (Kaan ツ)",
+        "name": "Kaan",
         "initial": "K",
-        "avatar_url": "avatars/726dcfd574f4877cc388295793318a14c91f1f0a.jpg",
+        "avatar_url": "avatars/23441498ad171823a443fdf16cede663b2144ccb.jpg",
         "profile_url": null
       },
       "rating": 5,
@@ -3925,7 +3943,7 @@
       "rating": 5,
       "date_iso": "2023-12-14",
       "date_display": "14 Dezember 2023",
-      "text": "(Übersetzt von Google) Freundlicher und kompetenter Inhaber/Lehrer. Tolle Erfahrung und gutes Preis-Leistungs-Verhältnis. Auf jeden Fall wieder buchen!\n\n(Original)\nFriendly & competent owner/instructor. Great experience & good value for money. Definitely booking again!",
+      "text": "(Übersetzt von Google) Freundlicher und kompetenter Inhaber/Instruktor. Tolles Erlebnis und gutes Preis-Leistungs-Verhältnis. Ich buche definitiv wieder!\n\n(Original)\nFriendly & competent owner/instructor. Great experience & good value for money. Definitely booking again!",
       "language": null,
       "verified": true,
       "photos": [],
