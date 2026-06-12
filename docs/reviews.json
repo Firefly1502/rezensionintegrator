@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-11T08:07:32Z",
+  "updated_at": "2026-06-12T07:25:57Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 247,
+    "rating_count": 248,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkiX1tp1_Zvqp_PtUc3i2tuPTkdbgn2FfFH-feyAKVELqG6lWs4Lh1-Aw9nZ6DuBi00ezXKNg",
+      "author": {
+        "name": "Natalie Zimmer",
+        "initial": "N",
+        "avatar_url": "avatars/5d7b7df73d7346ca53c2b55353e968c5b7adff55.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-11",
+      "date_display": "11 Juni 2026",
+      "text": "Ich habe meinem Freund, der leidenschaftlich gerne Flugsimulator am Computer spielt, 1 Stunde im Full Motion Flugsimulator bei Michael geschenkt. Man hat sofort gemerkt, dass Michael echt weiß, wovon er redet. Mein Freund und auch ich waren echt begeistert von dem Flugsimulator. Michael ist auf die individuellen Wünsche von meinem Freund (z.B. Wunschroute) super eingegangen und war auch allgemein einfach sehr sympathisch. Wir haben uns dort sehr wohl gefühlt und mein Freund konnte noch viel Neues dazulernen. Es war einfach super cool :-)\nDankeschön Michael für das tolle Erlebnis!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmQfgXn9D7eXsNRDi9d7En3lvrcQU6K50z4g_iwTmS4FaRDEPJtn7TQRE83Vbr8Titch3PdIw",
       "author": {
