@@ -1,16 +1,58 @@
 {
   "version": 1,
-  "updated_at": "2026-06-12T07:25:57Z",
+  "updated_at": "2026-06-13T07:01:00Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 248,
+    "rating_count": 250,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOql-HnPjZgTYEgpkyu2vkiPF_uPvRaFGu67P3XuiL6gl4Q51abiKYPOC6woEOIeE_5S-z-qPFg",
+      "author": {
+        "name": "H. D.",
+        "initial": "H",
+        "avatar_url": "avatars/6b00710e8ada6b2417670776b802cdb93e29e17a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-12",
+      "date_display": "12 Juni 2026",
+      "text": "Fantastisches Erlebnis! Selten ist die Zeit so sehr im wahrsten Sinne des Wortes \"im Fluge\" vergangen wie im hier im Airbus 320-Simulator. Es ist eben doch nochmal etwas anderes, wenn sich das ganze Cockpit bei jeder Neigung mitbewegt. Michael war ein hervorragender Fluglehrer, der die komplexen Zusammenhang im Flug und auch \"pre-flight\" wunderbar erklärt hat. Und mir bleibt neben der tollen Erfahrung auch der Stolz darauf, den A320 alleine und einigermaßen glimpflich in FRA gelandet zu haben.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": {
+        "text": "Lieber Harald,\nvielen Dank für die tolle Bewertung – freut mich sich sehr dass es Dir und dem Passagier so gut gefallen hat ! Ich freue mich auf den nächsten Flug. \nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqm6iSck7JabJFivoEFspWfypwpBV6_4fwu4OED2FULE_WjETXsqQpnjQNQTvIULot_hbHw4PA",
+      "author": {
+        "name": "Jimmy Huang",
+        "initial": "J",
+        "avatar_url": "avatars/cf248219cb66c6617cab6279ed9bac44b4defe30.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-12",
+      "date_display": "12 Juni 2026",
+      "text": "(Übersetzt von Google) Das war der Höhepunkt meiner Deutschlandreise. Michael war sehr freundlich und hilfsbereit bei der Anleitung und der Einrichtung der Bedingungen und Szenarien. Die Ausrüstung war sauber und in einem Top-Zustand. Bis zum nächsten Mal!\n\n(Original)\nThis is the highlight of my trip to Germany. Michael was very kind in instructing and helpful in setting up conditions and scenarios. The hard product was also clean and well-maintained. See you next time!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": {
+        "text": "Thanks, Jimmy – glad you enjoyed the experience, and thanks for the kind words about the setup and equipment. Hope to see you again!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkiX1tp1_Zvqp_PtUc3i2tuPTkdbgn2FfFH-feyAKVELqG6lWs4Lh1-Aw9nZ6DuBi00ezXKNg",
       "author": {
@@ -26,7 +68,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Liebe Natalie – vielen Dank für die tolle Bewertung ! Es freut mich sehr, dass dein Geschenk so gut angekommen ist. Danke und hoffentlich bis bald ! \n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -44,7 +89,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Johann – freut mich sehr, dass dir der Flug so viel Spaß gemacht hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -62,7 +110,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Sabrina – freut mich, dass dein Mann so viel Spaß hatte und die Einweisung gepasst hat. Kommt sehr gerne wieder 😊\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -80,7 +131,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Tom! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-06-12"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
