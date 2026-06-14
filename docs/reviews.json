@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T07:01:00Z",
+  "updated_at": "2026-06-14T07:25:51Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 250,
+    "rating_count": 251,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqk7wKYt2q_SQE4IfFcokIuw-V3iVG1U-Wb7vpt094N2xO9A013Dnp5UNHvM2tQ-m_8jCb6B",
+      "author": {
+        "name": "Karsten Eisenblätter",
+        "initial": "K",
+        "avatar_url": "avatars/56afba7e2e51509e173896151e8af4a6f05cf307.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-14",
+      "date_display": "14 Juni 2026",
+      "text": "Tolle Erfahrung.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOql-HnPjZgTYEgpkyu2vkiPF_uPvRaFGu67P3XuiL6gl4Q51abiKYPOC6woEOIeE_5S-z-qPFg",
       "author": {
