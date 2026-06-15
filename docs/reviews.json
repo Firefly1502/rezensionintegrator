@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-14T07:25:51Z",
+  "updated_at": "2026-06-15T09:27:08Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -261,6 +261,27 @@
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
+      "id": "AbFvOqkJo0Q9JcwFlHJxaaUW3dx2nvz9-92Sd2EPJyEf8C0DJ7Df7Ov5n8iiPe8Ox5czZRmc6ZIFjA",
+      "author": {
+        "name": "Marcus",
+        "initial": "M",
+        "avatar_url": "avatars/61b658de093944098ca5143d7cd65f27f0d33d6c.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-05-25",
+      "date_display": "25 Mai 2026",
+      "text": "Begeisterter Wiederholungstäter innerhalb von zwei Wochen! Nun noch einmal 90min mit unserem Besuch aus Österreich und wieder für alle ein sensationelles Erlebnis. Danke an Michael für seine klasse und einfühlsame Art. Die dritte Runde ist bereits in Planung…",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": {
+        "text": "Danke dir, Marcus – Ich freue mich schon auf unseren nächsten gemeinsamen Flug. Das Flugzeug steht noch in Las Vegas ;-)...\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-05-27"
+      },
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
       "id": "AbFvOqm_WitOTxLL3diHHUYN0Do9oF-rwqkgJmBgZK93qhEQ_uRJMeQGGkHD0AmbxUp4dzdeXogXSA",
       "author": {
         "name": "Uwe Schneidemüller",
@@ -298,27 +319,6 @@
       "photos": [],
       "owner_reply": {
         "text": "Danke dir, Mario! 🙏\n\nMichael (Inhaber Full Flight Sim)",
-        "date_iso": "2026-05-27"
-      },
-      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
-    },
-    {
-      "id": "AbFvOqkJo0Q9JcwFlHJxaaUW3dx2nvz9-92Sd2EPJyEf8C0DJ7Df7Ov5n8iiPe8Ox5czZRmc6ZIFjA",
-      "author": {
-        "name": "Marcus",
-        "initial": "M",
-        "avatar_url": "avatars/61b658de093944098ca5143d7cd65f27f0d33d6c.jpg",
-        "profile_url": null
-      },
-      "rating": 5,
-      "date_iso": "2026-05-25",
-      "date_display": "25 Mai 2026",
-      "text": "Vor ein paar Tagen durfte ich gemeinsam mit meiner Frau und ihrer Schwester 90 Min im Simulator mit Michael verbringen. Es war wirklich ein sensationelles Erlebnis und Michael ist ein sehr empathischer sowie netter Instructor. Weil es so klasse war gibt es in einer Woche einen weiteren Slot. Freue mich schon sehr darauf...",
-      "language": null,
-      "verified": true,
-      "photos": [],
-      "owner_reply": {
-        "text": "Danke dir, Marcus – Ich freue mich schon auf unseren nächsten gemeinsamen Flug. Das Flugzeug steht noch in Las Vegas ;-)...\n\nMichael (Inhaber Full Flight Sim)",
         "date_iso": "2026-05-27"
       },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
