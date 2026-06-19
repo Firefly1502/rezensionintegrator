@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-18T08:11:05Z",
+  "updated_at": "2026-06-19T08:34:55Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 251,
+    "rating_count": 252,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOql8tvkNJ9cjddD-ot1PU5Lk4tQ4lcTO0AHt_XOVuE0T4JGmTlNluzf2CqX0X2EVEdjATdsR",
+      "author": {
+        "name": "Pol Daleiden",
+        "initial": "P",
+        "avatar_url": "avatars/7a7924b636d703e18a6c57095ceb76f041a73353.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-18",
+      "date_display": "18 Juni 2026",
+      "text": "Super Erfahrung! Die Einweisung war genau richtig und man konnte direkt auf die Bahn. Bei Fragen gern und gut geholfen, ansonsten sind auch kleine Sonderwünsche möglich (mein kleiner der hinten saß wollte Schnee 😉).\nIch komme gerne wieder, diesmal dann mit Anflug auf spannende Flughäfen 😎",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqk7wKYt2q_SQE4IfFcokIuw-V3iVG1U-Wb7vpt094N2xO9A013Dnp5UNHvM2tQ-m_8jCb6B",
       "author": {
