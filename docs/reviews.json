@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T07:03:28Z",
+  "updated_at": "2026-06-21T08:03:12Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 252,
+    "rating_count": 253,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlbR-T1BYAdc445aAF1maQ1hbQbsUEReQ7K-RLFTueNNy0rI0F_KgAzv_4dJ_oYC0wGLhDvOg",
+      "author": {
+        "name": "Karl Wurm",
+        "initial": "K",
+        "avatar_url": "avatars/edef75a20cd717bf9bd2d1ed3ee65fd3add1fa16.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-20",
+      "date_display": "20 Juni 2026",
+      "text": "Ein tolles Erlebnis! Herr Schneider versteht es mit seiner sachlichen, sympathischen Art eine technisch anspruchsvolle Sache auch dem absoluten Anfänger nachvollziehbar näherzubringen und Begeisterung zu wecken.\nDanke! Wir kommen wieder.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOql8tvkNJ9cjddD-ot1PU5Lk4tQ4lcTO0AHt_XOVuE0T4JGmTlNluzf2CqX0X2EVEdjATdsR",
       "author": {
