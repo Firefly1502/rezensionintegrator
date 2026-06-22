@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-21T08:03:12Z",
+  "updated_at": "2026-06-22T09:13:53Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 253,
+    "rating_count": 254,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmxUY2l43njijEnVWKIPXHcL_Kyqs_yQPVLdTo_WybJkoL4q_WAqXNIjPrCm1fKm_mLZ8oO9g",
+      "author": {
+        "name": "Andreas Strupf",
+        "initial": "A",
+        "avatar_url": "avatars/7028f1a41a28412b21c6c182ae672280dafa1f46.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-21",
+      "date_display": "21 Juni 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlbR-T1BYAdc445aAF1maQ1hbQbsUEReQ7K-RLFTueNNy0rI0F_KgAzv_4dJ_oYC0wGLhDvOg",
       "author": {
