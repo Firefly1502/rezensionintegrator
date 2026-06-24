@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-23T06:54:16Z",
+  "updated_at": "2026-06-24T06:51:53Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -464,8 +464,8 @@
     {
       "id": "AbFvOqnfDJFViGhb2NjSWJXOM1hlQfaIHaY6iNGJpi9HupOZ-mqFafpNwmcfeW0qVjm8lpvArJGL2Q",
       "author": {
-        "name": "Chef Kritiker",
-        "initial": "C",
+        "name": "Herbert Hansen",
+        "initial": "H",
         "avatar_url": "avatars/4b1623aba40c18a477c266fcac0eadd422c76875.jpg",
         "profile_url": null
       },
