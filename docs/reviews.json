@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-06-25T06:51:26Z",
+  "updated_at": "2026-06-26T06:57:42Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 254,
+    "rating_count": 256,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqnG_llKSYvkZ_UCNDFz_APjNktrom6shRfEOMRZoNbydtlXScY6MD-WDtSGWpb-od04OTFD",
+      "author": {
+        "name": "Jens Kröner",
+        "initial": "J",
+        "avatar_url": "avatars/e93c552e840ad5b1f3e457c14ca2baea9b817350.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-25",
+      "date_display": "25 Juni 2026",
+      "text": "Ich war jetzt schon mehrmals hier und bin jedes Mal aufs Neue begeistert. Wer schon immer mal im Cockpit sitzen wollte, sollte es hier einfach ausprobiert haben.\nDas Zusammenspiel aus dem detailgetreuen Cockpit und der Bewegung der Plattform ist extrem gut umgesetzt. Man vergisst sofort, dass man in einer Simulation sitzt. Ein großes Lob geht an Michael: Er ist super entspannt, erklärt alles ohne Druck und passt den Flug genau an das an, was man sich zutraut – egal ob beim ersten Mal oder als Wiederholungstäter. Man fühlt sich einfach rundum gut aufgehoben.\nFür mich ist jeder Besuch ein echtes Highlight. Wer noch zögert, macht mit einer Buchung definitiv nichts falsch. Es lohnt sich!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqnZ0_WTVjeKuoJBRvogvORew4mhV-IcP8IMUneF4DPOR35cprmW6J_OGL3ZfTSgdeznCjN8xA",
+      "author": {
+        "name": "Nick172skyhawk",
+        "initial": "N",
+        "avatar_url": "avatars/0f62331a1b09ebfb300bda14ec758397d3248ff3.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-25",
+      "date_display": "25 Juni 2026",
+      "text": "Einwandfrei! Michael geht auf sämtliche Wünsche ein, top!\nDanke!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmxUY2l43njijEnVWKIPXHcL_Kyqs_yQPVLdTo_WybJkoL4q_WAqXNIjPrCm1fKm_mLZ8oO9g",
       "author": {
