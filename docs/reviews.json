@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-28T07:04:59Z",
+  "updated_at": "2026-06-29T08:18:02Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -4112,8 +4112,8 @@
     {
       "id": "AbFvOqntHs1e4zr3YE4099jBVeUR4F0ACZVdPATmgX6izdJGsY6vxAcWcoqZCJzKP_hTsd3XieFCIQ",
       "author": {
-        "name": "Mister X",
-        "initial": "M",
+        "name": "waldi",
+        "initial": "W",
         "avatar_url": "avatars/b442e7e0089d5a78d5c995426bd992b77b370562.jpg",
         "profile_url": null
       },
