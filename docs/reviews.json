@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-29T08:18:02Z",
+  "updated_at": "2026-06-30T06:58:15Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 256,
+    "rating_count": 257,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkWgTqIK9gTXIVvu9-wgUZgHgV3N6okqvAa2Rp7ZtHD1ggXc2XpH9CJJXFb3Ut0J0PDlzkDjw",
+      "author": {
+        "name": "Stephan Bayer",
+        "initial": "S",
+        "avatar_url": "avatars/339463ff9104f87cf93bfb0fe892322f817311d3.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-29",
+      "date_display": "29 Juni 2026",
+      "text": "Hat wahnsinnig viel Spaß gemacht. Coole Einweisung. Schicke Route. Mehrere Anflüge bei Wind und Wetter auf Frankfurt. 1:1 A320 Cockpit. Pflichtprogramm für alle Aviation Geeks und die die Interesse an der Luftfahrt haben!! IMMER WIEDER!!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqnG_llKSYvkZ_UCNDFz_APjNktrom6shRfEOMRZoNbydtlXScY6MD-WDtSGWpb-od04OTFD",
       "author": {
