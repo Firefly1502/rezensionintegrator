@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-06-30T06:58:15Z",
+  "updated_at": "2026-07-01T07:15:04Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 257,
+    "rating_count": 258,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlXWEk2fNTpg4LVewNpQVP5ftxTt1GSKijKtpnLuCrtoblkC0APNJiCwCrx2IVDMJTIAkboZg",
+      "author": {
+        "name": "Maximilian Muffert",
+        "initial": "M",
+        "avatar_url": "avatars/4b6670ddacb9ee7026ea88e29f321205b7b70a58.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-06-30",
+      "date_display": "30 Juni 2026",
+      "text": "Heute extra aus Erfurt/Bad Langensalza angereist für einen 90 Minuten Flug+Briefing.\n\nWas soll man groß sagen? Der „Trainer“ ist top, zum Anfang wurde eine Platzrunde für beide geflogen, damit er schaut, wo ist man dann wenn man selbst nicht genau seine Erfahrung definieren kann. Danach wurde die restliche Zeit vollständig ausgenutzt für einen von uns gewünschten Linienflug nach EDDE.\n\nRundum ein tolles Erlebnis, man bekommt alles erklärt, darf selber aber auch machen, und mein Kollege und ich haben jederzeit eine top Begleitung gehabt. Man bekommt gut ein Gefühl für das Flugzeug und durch die Full-Motion Ausstattung auch ein gutes Gefühl, wie es sich fliegen lässt. Ein neuer Besuch, vor allem in absehbarer Zeit ist mehr als sicher, und für jeden der es noch nicht erlebt hat, traut euch und besucht ihn, es ist einfach nur atemberaubend!\n\nAuch ist es gut für Leute, welche Flugangst besitzen, diese zu mindern kann ein Besuch im Simulator nicht schaden, da es auch gut Zeit, das dass Flugzeug sehr sehr sicher ist!\n\nRundum ein top Erlebnis!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkWgTqIK9gTXIVvu9-wgUZgHgV3N6okqvAa2Rp7ZtHD1ggXc2XpH9CJJXFb3Ut0J0PDlzkDjw",
       "author": {
