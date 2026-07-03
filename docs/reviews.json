@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-07-02T06:43:59Z",
+  "updated_at": "2026-07-03T06:35:33Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 258,
+    "rating_count": 259,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqn7EDcdzlZ2hBA6erxby39W2wMSI2Qtsm5gB8ehXSK0jFXwBhgjCtih3h10kQcCyZ4nUzy2wQ",
+      "author": {
+        "name": "Jannik Schulwitz",
+        "initial": "J",
+        "avatar_url": "avatars/609cf3e07189e176a22b58fa7927fe7a0f828695.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-02",
+      "date_display": "2 Juli 2026",
+      "text": "Wir haben dises Erlebnis als Geburtstags geschenk genutzt. Der Instruktor Michael war sehr geduldig und hat uns erstmal alles super erklärt. Dannach ging es in die Praxsis und ich kann euch sagen , dass ist ein ganz anderes level von Simulator. Sehr realistisch, da er sich bewegt. Mann denkt wirklich das man in einem echten Flugzeug sitzt. Wir waren begeistert und waren bestimmt nicht das letzte mal dort.\n\nVielen lieben Dank für alles.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlXWEk2fNTpg4LVewNpQVP5ftxTt1GSKijKtpnLuCrtoblkC0APNJiCwCrx2IVDMJTIAkboZg",
       "author": {
