@@ -1,16 +1,70 @@
 {
   "version": 1,
-  "updated_at": "2026-07-06T07:16:38Z",
+  "updated_at": "2026-07-07T06:50:13Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 260,
+    "rating_count": 263,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkDElgGm71A1-SFtCqpngvm8xRZCN3W3e7S1DIM7M1IkYJiHLIQDRE6tHXyruOWla0DzRh4",
+      "author": {
+        "name": "Leni Pfriem",
+        "initial": "L",
+        "avatar_url": "avatars/df17397d59eb2ac23068ab05b79838a64b3bc27b.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-06",
+      "date_display": "6 Juli 2026",
+      "text": "Es war ein tolles Erlebnis! Absolut empfehlenswert, auch wenn man noch keine Erfahrung im Fliegen hat. Der Instructor erklärt super, sodass man sofort Erfolgserlebnisse hat und viel mitnehmen kann!\n\nHerzlichen Dank für die tolle Erfahrung!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqmQ1Jshrlj1ERE5jwr1e9Oo2KAeEv2piMhBX65HI6A4aeayRwzmkARfvjDaxoGSDJZEou6x",
+      "author": {
+        "name": "Martin Bauer",
+        "initial": "M",
+        "avatar_url": "avatars/1b48a832956b2394c6360001acac36af5dd700fd.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-06",
+      "date_display": "6 Juli 2026",
+      "text": "Tolles Erlebnis - sehr netter und freundlicher Umgang mit Kunden sowie perfekte Tips für die Fliegerei und die Faszination Fliegen hat hier absoluten realitätsnahen Charakter.\nDankeschön für diesen tollen Eindruck und dieses perfekte Erlebnis.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqlXM-12fKJiby1kPybGdX3XP3d_rbjaw11Zd99QT7dgKI3fviYr1mF_Ta9uD7YOqHP5V8LB",
+      "author": {
+        "name": "Garrett",
+        "initial": "G",
+        "avatar_url": "avatars/c9e8a0a210864324cd6fe787a0b3f5af76014c1a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-06",
+      "date_display": "6 Juli 2026",
+      "text": "Am Samstag hatten wir das Vergnügen einen Airbus A 320 im vollbeweglichen Simulator zu fliegen.\n\nWir hatten das Paket \"Flight 90\" für zwei Personen gebucht, sodass jede Person als Pilot eine Flugzeit von 45 Minuten zu Verfügung hatte.\n\nNach einer sehr aufschlussreichen, lehrreichen und kurzweiligen Einweisung ging es los mit dem Rollen auf die Startbahn und dem ersten Start. Die Zeit des Fliegens verging - auch wegen der sehr angenehmen, ruhigen und sympatischen Art des Instructors - wie im Fluge ;-)\n\nDie Zeit reicht aus für zwei Starts, zwei Landungen und Flugmanövern in der Luft je Pilot.\n\nDer Simulator erzeugt ein wirklich realistisches Fluggefühl. Man hat tatsächlich den Eindruck, in einem echten Flugzeug zu sitzen.\n\nEine sehr empfehlenswertes Erlebnis, welches uns wirklich sehr viel Spaß und Erfahrung gebracht hat. Ich bin mir sicher, dass es nicht unser letzter Flug hier gewesen ist und wir wiederkommen.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmdnHFGlP8wc5WtTqtGHDZ9Vv8RhQO3DlxY4HsDID2HfqfEB7qxZC5Kz3IS2eCA6IQCGJnZsQ",
       "author": {
