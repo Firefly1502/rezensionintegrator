@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-07-08T05:55:43Z",
+  "updated_at": "2026-07-09T06:48:37Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 263,
+    "rating_count": 264,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmXuXmRr0O3nNJbhIHMGrXQu4ZXLQVRd8eMqEFV9OTk6O7YA2NSyrHQ_mpjUuB-jfqEWeqC",
+      "author": {
+        "name": "Conrad",
+        "initial": "C",
+        "avatar_url": "avatars/edefd5c834912b25bf04081ba2a36c6929da682c.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-08",
+      "date_display": "8 Juli 2026",
+      "text": "Bereits zum zweiten Mal war ich im Full flight Simulator in Griesheim und dieses Mal mit meiner Tochter, die sich für den Pilotenberuf interessiert. Wie bereits beim ersten Mal war alles rundherum hervorragend! Die Einweisung sehr professionell und freundlich sowie die ganze Begleitung während des Aufenthaltes war spitze! Wir hatten drei Stunden reine Flugzeit und konnten dann im Tochter-Vater-Gespann einen Linienflug als Pilot flying und Pilot Monitoring gemeinsam machen, natürlich freundlich begleitet und unterstützt. Ich wünsche Michael Schneider weiterhin viel Erfolg mit seinem sehr beeindruckend realistischen Simulator, auf dem sogar ausgebildete Piloten trainieren! Bis zum nächsten Mal!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkDElgGm71A1-SFtCqpngvm8xRZCN3W3e7S1DIM7M1IkYJiHLIQDRE6tHXyruOWla0DzRh4",
       "author": {
@@ -2821,7 +2839,7 @@
       "author": {
         "name": "Alexander Tiner",
         "initial": "A",
-        "avatar_url": "avatars/b054fca58ef11156ae63f6cf2da134da27581f1d.jpg",
+        "avatar_url": "avatars/db07379b20b380e71ce7167ad81b127c54420dc8.jpg",
         "profile_url": null
       },
       "rating": 5,
