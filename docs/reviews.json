@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T06:23:10Z",
+  "updated_at": "2026-07-14T05:35:04Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 264,
+    "rating_count": 265,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmT_l1-M_7HNvHqzYvx6SUg0SB7Ke7DGAVYed79tdPmS9GIfMA4Qfs5tQouHYhjSKLnv5l5MA",
+      "author": {
+        "name": "Martin Sikorski",
+        "initial": "M",
+        "avatar_url": "avatars/d6a56e5d340aa6d2d6a6a962d7c9997c7dcd351a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-13",
+      "date_display": "13 Juli 2026",
+      "text": "Fliegen fasziniert mich schon seit Jahren, und es war immer ein großer Wunsch von mir, einmal so realistisch wie möglich selbst ein Flugzeug zu steuern. Diesen Wunsch habe ich mir nun zum Geburtstag erfüllt – und ich kann nur sagen: Es war ein absolutes Highlight!\n\nObwohl ich keinerlei Vorkenntnisse hatte und noch nie einen Flugsimulator genutzt habe, hat Michael mich mit viel Ruhe und Präzision an alles herangeführt. Er erklärt die wichtigsten Abläufe so verständlich und strukturiert, dass man sich sofort sicher fühlt und wirklich in das Erlebnis eintauchen kann.\n\nBesonders beeindruckend ist das unglaublich realistische Gefühl: Dank der 6-DOF Bewegungsplattform spürt man jede Bewegung, jede Turbulenz, jedes Wetter – ob Sturm oder Regen. Es fühlt sich tatsächlich so an, als würde man eine über 60 Tonnen schwere Maschine selbst als Kapitän fliegen.\n\nIch bin immer noch begeistert und fasziniert von diesem Erlebnis. Für jeden, der sich fürs Fliegen interessiert, ist das ein absolutes Muss und Michael der absolute Fachmann. Ich komme wieder!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmXuXmRr0O3nNJbhIHMGrXQu4ZXLQVRd8eMqEFV9OTk6O7YA2NSyrHQ_mpjUuB-jfqEWeqC",
       "author": {
@@ -94,7 +112,7 @@
       "rating": 5,
       "date_iso": "2026-07-04",
       "date_display": "4 Juli 2026",
-      "text": "Ich muss echt sagen das war der beste Simulator den ich je gespielt hab. Ich hatte noch nie so viel spaß und kann das nur jedem weiter empfehlen\nLG",
+      "text": "Das war ein ganz tolles Erlebnis. Mein Sohn meinte, dass dies der beste Simulator war, den er gespielt hat. Er hatte dabei ganz viel Spaß und ich kann das nur weiter empfehlen",
       "language": null,
       "verified": true,
       "photos": [],
