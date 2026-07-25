@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-07-24T05:52:55Z",
+  "updated_at": "2026-07-25T05:45:48Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 266,
+    "rating_count": 267,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmJXrW9MFl_vcA6Dg5jR7oPsnUxwsL-xiuGWoj958xzMCXAsmtvGXVneULcOHtFUcuhkF4FMw",
+      "author": {
+        "name": "Deadpool",
+        "initial": "D",
+        "avatar_url": "avatars/2927011060c29d8cc0893f4dd012a5f68e90ada5.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-07-24",
+      "date_display": "24 Juli 2026",
+      "text": "Wir waren heute bei Michael und es war absolut fantastisch. Es hat so viel Spaß gemacht. Absolute Empfehlung und wir werden uns wieder sehen.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmpXBKIXfO7Mu2INajBZ412jgLH9kEfwJjIZOA6QzWFuQK-fQIgR7R-nRbko8oPbJWlEzOIHQ",
       "author": {
