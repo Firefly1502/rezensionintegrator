@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T06:08:50Z",
+  "updated_at": "2026-07-27T06:33:46Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -5077,7 +5077,7 @@
       "author": {
         "name": "Kirill Arlt",
         "initial": "K",
-        "avatar_url": "avatars/528b90a237854163633fcf3ce341b435dea04611.jpg",
+        "avatar_url": "avatars/40d6f56a73134c43433caa9430bfc87120bbb327.jpg",
         "profile_url": null
       },
       "rating": 5,
