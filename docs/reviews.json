@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-02T06:05:53Z",
+  "updated_at": "2026-08-03T06:27:17Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 269,
+    "rating_count": 270,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlM903tCuKOufbcpTEHMI8CS0XQZmgD4xujORWbBa_enmrXh8plC4NPfJLsKc-J8jPJY2JogA",
+      "author": {
+        "name": "Peter Weingärtner",
+        "initial": "P",
+        "avatar_url": "avatars/53d7312edde480704ad59cc9a5d097495c9d1789.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-02",
+      "date_display": "2 August 2026",
+      "text": "Ich habe das Erlebnis für mein flugbegeistertes Patenkind gebucht. Wir waren zu dritt im Simulator und hatten eine tolle Zeit. Michael, der Instruktur hat uns perfekt begleitet und alles super erklärt. Ich werde germe wieder kommen ...",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqn69Zfm6MkWVa3VH2K-1INQimZmNaw47Q2QjnsJiNxkfagBXrZW_sPzJO4ic1rUnju-HbWF5w",
       "author": {
