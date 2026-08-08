@@ -17,6 +17,8 @@ import os
 import sys
 from pathlib import Path
 
+import requests
+
 from fetcher.avatar_cache import cache_avatar  # noqa: F401 – imported for test-patching
 from fetcher.business_api import fetch_all_reviews as fetch_business
 from fetcher.normalize import normalize_business_response, normalize_places_response
@@ -45,16 +47,25 @@ def run(docs_dir: Path | None = None) -> None:
 
     log.info("Fetching reviews (source=%s, place_id=%s)", source, place_id)
 
-    if source == "places":
-        api_key = _require_env("GOOGLE_MAPS_API_KEY")
-        raw = fetch_place(place_id, api_key)
-        data = normalize_places_response(raw, place_id)
-    elif source == "business":
-        token_json = _require_env("GOOGLE_TOKEN_JSON")
-        raw_reviews, biz_info = fetch_business(place_id, token_json)
-        data = normalize_business_response(raw_reviews, biz_info)
-    else:
-        raise ValueError(f"Unknown REVIEWS_SOURCE: {source!r}")
+    try:
+        if source == "places":
+            api_key = _require_env("GOOGLE_MAPS_API_KEY")
+            raw = fetch_place(place_id, api_key)
+            data = normalize_places_response(raw, place_id)
+        elif source == "business":
+            token_json = _require_env("GOOGLE_TOKEN_JSON")
+            raw_reviews, biz_info = fetch_business(place_id, token_json)
+            data = normalize_business_response(raw_reviews, biz_info)
+        else:
+            raise ValueError(f"Unknown REVIEWS_SOURCE: {source!r}")
+    except requests.RequestException as e:
+        # Google-API-Ausfall nach allen Retries: reviews.json bleibt unverändert,
+        # Job endet grün (kein Failure-Mail-Rauschen bei transienten 5xx-Störungen).
+        log.warning(
+            "Google API nicht erreichbar nach Retries — reviews.json bleibt unverändert. Details: %s",
+            e,
+        )
+        return
 
     # Localize avatars using the module-level cache_avatar so tests can patch
     # fetcher.fetch.cache_avatar and intercept every call here.

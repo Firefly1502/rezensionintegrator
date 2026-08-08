@@ -3,6 +3,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import pytest
+import requests
 
 from fetcher import fetch as fetch_module
 
@@ -73,3 +74,17 @@ def test_run_business_missing_token_raises(tmp_path, monkeypatch):
     monkeypatch.setenv("REVIEWS_SOURCE", "business")
     with pytest.raises(SystemExit):
         fetch_module.run(docs_dir=tmp_path / "docs")
+
+
+@patch("fetcher.fetch.fetch_business")
+def test_run_business_graceful_exit_on_http_error(mock_fetch, tmp_path, monkeypatch):
+    mock_fetch.side_effect = requests.HTTPError("503 Server Error")
+    docs_dir = tmp_path / "docs"
+    monkeypatch.setenv("PLACE_ID", "X")
+    monkeypatch.setenv("GOOGLE_TOKEN_JSON", '{"token": "fake"}')
+    monkeypatch.setenv("REVIEWS_SOURCE", "business")
+
+    # Kein SystemExit, keine Exception — reviews.json bleibt einfach ungeschrieben.
+    fetch_module.run(docs_dir=docs_dir)
+
+    assert not (docs_dir / "reviews.json").exists()
