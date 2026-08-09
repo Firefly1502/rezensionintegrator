@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-06T05:53:13Z",
+  "updated_at": "2026-08-09T04:19:31Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -26,7 +26,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Selina! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-08-08"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -44,7 +47,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Alexander – freut mich, dass dir die Session gefallen hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-08-08"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -62,7 +68,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Peter – freut mich, dass das Erlebnis bei euch allen so gut gefallen hat und dass die Anleitung gepasst hat. Gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-08-08"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -80,7 +89,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Ma Bo! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-08-08"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -98,7 +110,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Sadeed! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-08-08"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -799,7 +814,7 @@
       "author": {
         "name": "Dennis von Kannen",
         "initial": "D",
-        "avatar_url": "avatars/dde03ce9e3c1200828dd440b39215efc2cfd713b.jpg",
+        "avatar_url": "avatars/8051a0e1f8aaac8ab5fa5559b4151d5264da38f4.jpg",
         "profile_url": null
       },
       "rating": 5,
