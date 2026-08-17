@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-16T03:51:01Z",
+  "updated_at": "2026-08-17T03:52:47Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 275,
+    "rating_count": 276,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlT9imFE9Xj_E_l7d8o-MEhssAL7C0NA4f_v8ykClVyhOXOJ_EXrTz1lexUyDr1aJsmGvN-",
+      "author": {
+        "name": "Michael Zebisch",
+        "initial": "M",
+        "avatar_url": "avatars/22b139c3126700976d4cbe032b04682e08fa38ac.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-16",
+      "date_display": "16 August 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkYkdEUJAVu2rT_NvTeOu6DxSGyfp1uHmAAoi7z-efmJ01z44e_Jb2tvdEUxfmfY3A_BLpj",
       "author": {
