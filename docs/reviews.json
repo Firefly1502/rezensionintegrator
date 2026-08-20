@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-19T03:49:21Z",
+  "updated_at": "2026-08-20T03:49:29Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 276,
+    "rating_count": 277,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqnuBOCrxrRE7TPaQYs1bwLzHNnE54tjHn4Ev5agQ2fUDbk8X6ZsgGi7-QO1ovY-dGA_lOVpDw",
+      "author": {
+        "name": "Uwe Hirsch",
+        "initial": "U",
+        "avatar_url": "avatars/7d5243dea5057a593dd68fec44447eec6a463f75.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-19",
+      "date_display": "19 August 2026",
+      "text": "Die Begrüßung war herzlich und die Einführung in die Flug-Simulation war sehr professionell. Herr Michael Schneider hat uns sehr detailreich und individuell unserem Vor-Wissen entsprechend in die Fähigkeiten des Flugzeugs A320 und des Simulators eingeführt - wir waren zu Dritt, einer mit geringer Erfahrung und einer vollkommen ohne jedes Vor-Wissen. Die Begleitung beim Simulations Rundflug mit Start und Landung in Frankfurt war perfekt, mit genügend Hilfenstellungen und Hinweisen, aber ohne unnötige Eingriffe.\nWir haben Abends noch lange darüber geredet, wer wie geflogen ist und welche Fehler gemacht hat - ein tolles Erlebnis - wir kommen bestimmt wieder!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlT9imFE9Xj_E_l7d8o-MEhssAL7C0NA4f_v8ykClVyhOXOJ_EXrTz1lexUyDr1aJsmGvN-",
       "author": {
