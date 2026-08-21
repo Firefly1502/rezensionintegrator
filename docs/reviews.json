@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-08-20T03:49:29Z",
+  "updated_at": "2026-08-21T03:52:34Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 277,
+    "rating_count": 279,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkTOguQ-48P0v-jLGGd1VDHnlqt3Yc-5-mlzt0JXmQ65Z-T0Ny2WZ0-z0C9mh1iJ4G3-5oC0Q",
+      "author": {
+        "name": "Sereas",
+        "initial": "S",
+        "avatar_url": "avatars/e76ba2f69e98da26739e73e86e0c64cec957088a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-20",
+      "date_display": "20 August 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqn02s0on92i0AlCBLNF7p40ORBY60EMOfrcyzhVxCU4FujYrettnAQVl18gNELgzzU7LaVpTQ",
+      "author": {
+        "name": "D D",
+        "initial": "D",
+        "avatar_url": "avatars/f5c0f060e579d6653909b63ccf51478948b60ebb.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-20",
+      "date_display": "20 August 2026",
+      "text": "Wir hatten gestern bei FULL FLIGHT SIM in Griesheim ein wirklich großartiges Erlebnis. Ich hatte meinem Neffen das „Flight90 – Full Motion“-Erlebnis geschenkt und wir waren beide begeistert.\n\nBesonders hervorheben möchte ich Herrn Schneider, der uns während des gesamten Fluges begleitet hat. Mit seiner sehr ruhigen, sympathischen und angenehmen Art hat er uns alles verständlich und anschaulich erklärt. Dabei merkt man sofort, dass er über sehr viel Erfahrung verfügt und gleichzeitig mit großer Begeisterung bei der Sache ist.\n\nAuch technisch war das gesamte Erlebnis auf einem ausgesprochen hohen und professionellen Niveau. Der Flugsimulator und die Umsetzung haben einen sehr realistischen und hochwertigen Eindruck vermittelt. Alles wirkte bestens vorbereitet, professionell und bis ins Detail durchdacht.\n\nDie Kombination aus modernster Technik, dem sehr realistischen Flugerlebnis und der kompetenten und persönlichen Betreuung durch Herrn Schneider macht den Besuch bei FULL FLIGHT SIM zu einem ganz besonderen Erlebnis.\n\nFür alle, die sich für Fliegen interessieren oder einfach einmal etwas Außergewöhnliches erleben möchten, kann ich FULL FLIGHT SIM uneingeschränkt empfehlen.\n\nVielen Dank an Herrn Schneider für diesen tollen Nachmittag – wir kommen bestimmt wieder!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqnuBOCrxrRE7TPaQYs1bwLzHNnE54tjHn4Ev5agQ2fUDbk8X6ZsgGi7-QO1ovY-dGA_lOVpDw",
       "author": {
