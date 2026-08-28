@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-27T13:57:25Z",
+  "updated_at": "2026-08-28T15:08:49Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 281,
+    "rating_count": 282,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlE_Hem4caDTxjRSVAQ76XWR56Z8PFaZ4C5IvXLrYNOCBcmCrky-0mB4bFSW_vh9hOSAH75",
+      "author": {
+        "name": "Patrick Maraun",
+        "initial": "P",
+        "avatar_url": "avatars/a233efd41732c7e3c57a7bec3627b8b5d6e0a6bf.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-27",
+      "date_display": "27 August 2026",
+      "text": "Beeindruckendes Setup und gute, angenehm vermittelte Instruktionen. Ich habe selbst jahrelange Simulator Erfahrung am Home PC. Ein voll beweglicher Full Flight Simulator ist allerdings eine ganz anderes Level. Erwartungen erfüllt.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlHV0E9l4-pTqEhDrLAtqltHKYE1cGFVcRaI-kXCHP5duDMmChBjQP8WlJvih9RWdR0GbQLZA",
       "author": {
