@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-29T09:51:21Z",
+  "updated_at": "2026-08-30T09:02:05Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 282,
+    "rating_count": 283,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkxH6Jb-Ie0sObRYjS5XJm12w_TVRjibq2bPg_JBn8EnUf-NN1pZqS8QBYf_WFcBceRaTzs",
+      "author": {
+        "name": "Peter Hirsch",
+        "initial": "P",
+        "avatar_url": "avatars/4d05ebde64c102fac566f517ebba526caac2bdc4.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-29",
+      "date_display": "29 August 2026",
+      "text": "Ein sagenhaftes Erlebnis - sehr sehr realistisch durch die Bewegungen",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlE_Hem4caDTxjRSVAQ76XWR56Z8PFaZ4C5IvXLrYNOCBcmCrky-0mB4bFSW_vh9hOSAH75",
       "author": {
