@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-08-31T09:30:03Z",
+  "updated_at": "2026-09-01T08:26:47Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 283,
+    "rating_count": 285,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmCJ6nYsdJlo-ttWYSIZytXJ5H4iNkTp7i0PTd6meWE5mdA1J1vUOKF_XXNqAbq7Brwq5LuZg",
+      "author": {
+        "name": "Stephan Neumann",
+        "initial": "S",
+        "avatar_url": "avatars/4835a088acb106fc869810163fd04e65b5709ddc.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-31",
+      "date_display": "31 August 2026",
+      "text": "Ein absolut unvergessliches Erlebnis – 5 von 5 Sternen!\nIch hatte gestern das Vergnügen, den Flugsimulator auszuprobieren, und bin immer noch absolut begeistert.\nDie Qualität des Simulators ist überragend. Die Grafik, das Cockpit und die gesamte Haptik sind so realistisch, dass man komplett vergisst, dass man sich am Boden befindet. Jedes Detail stimmt, und die Flugdynamik fühlt sich täuschend echt an.\nEin ganz großes Lob geht an meinen Instruktor. Mit seiner ruhigen, kompetenten und sympathischen Art hat er alles perfekt erklärt. Er ging individuell auf meine fehlenden Vorkenntnisse ein, hat mir während des Fluges tolle Tipps gegeben und so für eine extrem entspannte und lehrreiche Atmosphäre gesorgt.\nDas gesamte Erlebnis war von Anfang bis Ende einfach nur großartig. Für mich ein absolutes Highlight, das jeden Cent wert war. Ich kann diesen Flugsimulator jedem – vom Laien bis zum Luftfahrt-Fan – wärmstens empfehlen und werde definitiv wiederkommen!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqmcDKGRrSIAGkCn10F7pa_Is38xKSCYRCdes8pkGNjOHUpqzRzYJ6LKQcLs2ffiSMBrj-Lf",
+      "author": {
+        "name": "Eugen Dementev",
+        "initial": "E",
+        "avatar_url": "avatars/0f90ea732bc146f2f5f7b7b8eda29684f2190360.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-08-31",
+      "date_display": "31 August 2026",
+      "text": "Sehr interessant und echt aufregend. Wenigstens einmal auszuprobieren lohnt sich.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkxH6Jb-Ie0sObRYjS5XJm12w_TVRjibq2bPg_JBn8EnUf-NN1pZqS8QBYf_WFcBceRaTzs",
       "author": {
