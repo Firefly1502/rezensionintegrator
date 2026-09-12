@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-09-11T07:54:18Z",
+  "updated_at": "2026-09-12T07:46:37Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 286,
+    "rating_count": 285,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
@@ -1372,27 +1372,6 @@
       "photos": [],
       "owner_reply": {
         "text": "Liebe Steffi,\n\ndas freut mich wirklich sehr! Dass ihr euch vom ersten bis zum letzten Moment so wohlfühlt, ist genau das, wofür ich das mache. Und wenn die Realitätsnähe des Flugs euch so begeistert, dass ihr wiederkommen wollt – besser kann es nicht laufen. Ich freue mich schon auf euer nächstes Abenteuer!\n\nMichael (Inhaber Full Flight Sim)",
-        "date_iso": "2026-05-06"
-      },
-      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
-    },
-    {
-      "id": "AbFvOqnRR6hl1vkHi2oiWYqOoMXY4Uc0pavuKfBzgLzYiycmktftHqtWWGQGQAi7uPKfgJYik_vM",
-      "author": {
-        "name": "Piotr",
-        "initial": "P",
-        "avatar_url": "avatars/dd1820e614f3e3a51e516f391e7dad1d8469c8bd.jpg",
-        "profile_url": null
-      },
-      "rating": 5,
-      "date_iso": "2026-04-24",
-      "date_display": "24 April 2026",
-      "text": "Tolles Erlebnis! Kann es nur weiterempfehlen",
-      "language": null,
-      "verified": true,
-      "photos": [],
-      "owner_reply": {
-        "text": "Vielen Dank :-)\n\nMichael (Inhaber Full Flight Sim)",
         "date_iso": "2026-05-06"
       },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
