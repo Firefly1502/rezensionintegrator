@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-09-12T07:46:37Z",
+  "updated_at": "2026-09-13T08:07:45Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 285,
+    "rating_count": 286,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqk9dQ4AVdCaPKyRP60zXh6BNwCFtkFf5qMUZSvKcgj-uspvWOyJshlLyplaUZfoLVouiDNDxQ",
+      "author": {
+        "name": "Rudolf Kundel",
+        "initial": "R",
+        "avatar_url": "avatars/5bdfc01e99908c2de14efe42a53b3e0fbb0ffbcf.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-09-12",
+      "date_display": "12 September 2026",
+      "text": "Das war ein sehr eindrucksvolles Erlebnis!\nNach einer angemessenen Einweisung bin ich 3 Platzrunden geflogen, es war einfach super!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlda1tLf7JVSGtmVU1G88YFa1EYb1xVyUTO3Xa7EjEOoiP4uKxUTfT_lM31ozwb830w7shLZw",
       "author": {
