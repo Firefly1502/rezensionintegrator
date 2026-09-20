@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19T07:54:13Z",
+  "updated_at": "2026-09-20T08:24:37Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -5719,7 +5719,7 @@
       "author": {
         "name": "Nadko",
         "initial": "N",
-        "avatar_url": "avatars/329b438ba3946e64e98a6770e33da22ce72f4692.jpg",
+        "avatar_url": "avatars/b7a6abc418c77aa56010a921bd2e754325d68e02.jpg",
         "profile_url": null
       },
       "rating": 5,
