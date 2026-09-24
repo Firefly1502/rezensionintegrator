@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-09-23T08:24:21Z",
+  "updated_at": "2026-09-24T08:15:49Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 289,
+    "rating_count": 291,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkNKD3SF22crCFs-YfstmGQvxIGoGSGIk0LB8tZFYimz396st5CG51eMLsZWv-ZvfFjR8QBiw",
+      "author": {
+        "name": "The Bikerz",
+        "initial": "T",
+        "avatar_url": "avatars/475e5ee34b373d26d299d84d8e0eaac7a1ff6bed.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-09-23",
+      "date_display": "23 September 2026",
+      "text": "Mega Erlebnis und eine rundum professionelle Betreuung! Ideal als Geburtstagsgeschenk und für Jedermann zu empfehlen! Eine unbeschreiblich tolle Erfahrung. Wir kommen gerne wieder :)",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqm3_JTnL1eWlRnnF_pdzVDclKH3IhcTK_QywgoJs1c8MP1sNebKTEbFbLohntyFTqM0y4t4_w",
+      "author": {
+        "name": "Jürgen Bartels",
+        "initial": "J",
+        "avatar_url": "avatars/cc0f225ac35eaba8632b5066dc8ed23ebcc1b6e5.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-09-23",
+      "date_display": "23 September 2026",
+      "text": "Es fand eine ausführliche Erklärung der Funktionen zur Benutzung des Flugsimulator statt und die anschließenden Flugrouten mit dem mehrmaligen Start, Rundflug zum Flughafen mit anschließender Landung war einfach Super. Die einzelnen Hinweis und Hilfen sowie Tipps zu der Flugzeugsteuerung war sehr Gründlich.\nIch bin begeistert .",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlPKeQNAj531BgLRxXKA6bRJuz1gtA9abRXLx6HHunQGCYvtrc9fDwYO_xy99sG_uKcATkizg",
       "author": {
