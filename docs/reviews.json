@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T09:35:30Z",
+  "updated_at": "2026-09-30T09:27:52Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 293,
+    "rating_count": 294,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmtOa4z_H8exl0ww99LRLsWUnYlTpkT-xjIqN91xWeKENbSpLjhMsIHL_bKuAHmSyt3aD2jYw",
+      "author": {
+        "name": "LM_5",
+        "initial": "L",
+        "avatar_url": "avatars/c8581c755dcebbb0c06022d110b2200a3e8e1135.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-09-29",
+      "date_display": "29 September 2026",
+      "text": "Hat super viel Spaß gemacht! …und wird mir auf jeden Fall bei der Entscheidung helfen, vielleicht doch noch meinem „Traum“ nachzugehen…",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkIeWGS8T68nmkEUQmeRTH-Ia-WkEqpoJxxmbEGZ8an7mrj6tsRLdfbjCB62aDHTNFi6WVn",
       "author": {
@@ -4129,7 +4147,7 @@
       "author": {
         "name": "Tamara Bischof",
         "initial": "T",
-        "avatar_url": "avatars/db8982156ef30c116a2341ab1dc3cdfb405a89f5.jpg",
+        "avatar_url": "avatars/dc6a737a37d37620e248c9e9c6cfb7d1ed29668f.jpg",
         "profile_url": null
       },
       "rating": 5,
