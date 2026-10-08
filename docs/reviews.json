@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-07T10:00:36Z",
+  "updated_at": "2026-10-08T10:13:21Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 296,
+    "rating_count": 297,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOql6GFstIoti_eAkHYjzwdbEtJHeGpJ4fxkV-rmwoZVD1809ZPSrNkdn1cCRnIGByHtBJDu1bw",
+      "author": {
+        "name": "Sunee Spies",
+        "initial": "S",
+        "avatar_url": "avatars/134ce608140d10bc3a39686f2e8ab8bc870c2b03.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-07",
+      "date_display": "7 Oktober 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmCYbR5t-qDn_VDGbfotP9lXcnsTi_R82MuuZHHd08Uo29rEEyHOy7e0iNVxYJu6OSkiuKu",
       "author": {
@@ -3406,7 +3424,7 @@
       "author": {
         "name": "Artur W",
         "initial": "A",
-        "avatar_url": "avatars/6e64c46db014104d09a8c171530825874aa6657b.jpg",
+        "avatar_url": "avatars/fc4b8e3d55bcb8aa8f64d07f2daac4309bb5f739.jpg",
         "profile_url": null
       },
       "rating": 5,
