@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T10:14:35Z",
+  "updated_at": "2026-10-10T09:35:33Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 297,
+    "rating_count": 299,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkpj_i6OqZxJaNEBP1EEGOBYOaBbLTVBV7Y8S_hXoTrCcZlarkfJA28683xeQfyn_elkx5H",
+      "author": {
+        "name": "Evi Kruschke Marquardt",
+        "initial": "E",
+        "avatar_url": "avatars/d2dcb2cacb6e1b74ffbb294e3e5b258c86fc2351.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-10",
+      "date_display": "10 Oktober 2026",
+      "text": "Ein super schönes und eindruckvolles Erlebniss. Werde wieder kommen.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqnXNbTUCmndGVyBcOw3iR5nef_l4lYAmzU032mx7pAG2zNwdV-DNSGaheaXYmhQ-watsM7gYw",
+      "author": {
+        "name": "Sonnen System",
+        "initial": "S",
+        "avatar_url": "avatars/c1bb320613d6dc9144cbba796fc6f813c0d8c710.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-09",
+      "date_display": "9 Oktober 2026",
+      "text": "Es war hervoragend alles war super realistisch, das sich alles bewegt hat war noch mal der endkick. Ein super höfflicher und auch proffesioneller Begleiter.\nDAS KONZEPT IST SUPER UND EINZIGARTIG! Empfehlenswert als z.b. Geburtstagsgeschenk, jeder würde sich freuen! Es ist außerordentlich gut organisiert.\nWICHTIG IST: So etwas gibt es fast nirgendwo also sollte man die Gelegenheit nutzen um z.b. jemandem eine Freude zu machen!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOql6GFstIoti_eAkHYjzwdbEtJHeGpJ4fxkV-rmwoZVD1809ZPSrNkdn1cCRnIGByHtBJDu1bw",
       "author": {
