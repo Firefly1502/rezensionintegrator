@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-11T09:48:06Z",
+  "updated_at": "2026-10-12T10:28:02Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 299,
+    "rating_count": 300,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlia0hBh65bqLFyir0S8T250T9H-BhwDZXZd_kuvmYHcszT-ihR5BfuhbkR1LU2v0jsflbRNw",
+      "author": {
+        "name": "Christoph",
+        "initial": "C",
+        "avatar_url": "avatars/b0839fcc9eee62a9b923db589a62dd93a1abac6f.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-11",
+      "date_display": "11 Oktober 2026",
+      "text": "Michael hat alles in Ruhe und ausführlich erklärt und es hat super viel Spaß gemacht! Nochmals vielen Dank für das tolle Erlebnis!😊✈️",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkpj_i6OqZxJaNEBP1EEGOBYOaBbLTVBV7Y8S_hXoTrCcZlarkfJA28683xeQfyn_elkx5H",
       "author": {
@@ -3319,7 +3337,7 @@
       "rating": 5,
       "date_iso": "2025-10-03",
       "date_display": "3 Oktober 2025",
-      "text": "Auch diesmal war es wieder ein Erlebnis. Wir sind zu Zweit geflogen und Herr Schneider hat uns wie immer alles perfekt erklärt. Wir werden wieder kommen.",
+      "text": "Hier zu fliegen ist jedes Mal ein Erlebnis. Bei jedem Besuch bekommt man was neues gezeigt und erklärt, daher wird es nie langweilig und die Zeit rennt.",
       "language": null,
       "verified": true,
       "photos": [],
