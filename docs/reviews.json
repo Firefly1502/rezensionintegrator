@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12T10:28:02Z",
+  "updated_at": "2026-10-13T10:18:04Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 300,
+    "rating_count": 301,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmbMG_ndgE7ghJLkYorDopJRndsEQGLvPObnkejz8uawqVgeDKVEJgm1lAkkWfyw7kgXeSSqA",
+      "author": {
+        "name": "Leonard Pelger",
+        "initial": "L",
+        "avatar_url": "avatars/c87d873dea577492fad2ea64eefc7ee74690aab2.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-12",
+      "date_display": "12 Oktober 2026",
+      "text": "Ein unglaubliches Erlebnis und die Erfüllung eines Kindheitstraums!\n\nIch durfte 90 Minuten im A320 Full-Motion-Simulator verbringen und zwei Legs von Frankfurt nach München und zurück fliegen. Vom Cold-and-Dark-Start über die Procedures bis hin zu manuellen Steigflügen und Anflügen durfte ich alles selbst übernehmen.\n\nBesonders gut hat mir die Betreuung durch Michael als Instruktor und zeitgleich als mein Pilot Monitoring gefallen. Er hat alles verständlich erklärt, mir hilfreiche Tipps gegeben und mich auch beim manuellen Fliegen unterstützt. Obwohl ich seit neun Jahren keinen FSX mehr genutzt hatte und keinerlei praktische Erfahrung mit dem Feedback des A320s hatte, habe ich mich sofort im A320 wieder wie Zuhause gefühlt und bei Michael super aufgehoben gefühlt. Das Feedback war ehrlich und motivierend.\n\nGerade die ILS Anflüge und manuellen Landungen waren eine spannende Herausforderung und haben mir gezeigt, wie viel Gefühl und Übung dahinterstecken. Es lief natürlich nicht alles perfekt, aber genau das hat das Erlebnis umso lehrreicher gemacht.\n\nDie Zeit verging wie im Flug, ich hätte direkt weitermachen können! Vielen Dank für dieses großartige Erlebnis.\n\nIch komme definitiv bald wieder! ✈️",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlia0hBh65bqLFyir0S8T250T9H-BhwDZXZd_kuvmYHcszT-ihR5BfuhbkR1LU2v0jsflbRNw",
       "author": {
