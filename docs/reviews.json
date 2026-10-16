@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15T08:05:41Z",
+  "updated_at": "2026-10-16T07:59:17Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 301,
+    "rating_count": 302,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqntit2e2PycjcUoeBxWatmiS0KSA58m_Kwgx4lKhTTpqvTfePsfFa3EF4k-51VdgxhVlrmSqA",
+      "author": {
+        "name": "Oliver Glombik",
+        "initial": "O",
+        "avatar_url": "avatars/18c1425430e7467257ea5fac13403af68f18d942.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-15",
+      "date_display": "15 Oktober 2026",
+      "text": "Das war ein tolles Erlebnis. Als Erstes gab es eine nette Begrüßung mit anschließender Einweisung in die A320. Ich musste die A320 starten, eine Runde um den Flughafen Frankfurt drehen und anschließend wieder landen. Ich hatte den 30-Minuten-Flug gebucht. Selbst meine Frau war total begeistert. Sie saß hinter mir im Simulator und konnte alles mit ansehen. Der Betreiber ist sehr nett und freundlich. Ich kann den Simulator auf jeden Fall weiterempfehlen. Für mich war es das erste Mal in einem Motion-Simulator. Das hat wirklich Spaß gemacht.\nBeide Daumen hoch!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmbMG_ndgE7ghJLkYorDopJRndsEQGLvPObnkejz8uawqVgeDKVEJgm1lAkkWfyw7kgXeSSqA",
       "author": {
