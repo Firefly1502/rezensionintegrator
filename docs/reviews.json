@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T07:59:17Z",
+  "updated_at": "2026-10-17T07:37:15Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -112,7 +112,7 @@
       "rating": 5,
       "date_iso": "2026-10-07",
       "date_display": "7 Oktober 2026",
-      "text": "",
+      "text": "Ein einmaliges Erlebnis...",
       "language": null,
       "verified": true,
       "photos": [],
