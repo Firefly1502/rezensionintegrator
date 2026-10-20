@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T08:37:30Z",
+  "updated_at": "2026-10-20T08:18:32Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 303,
+    "rating_count": 304,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOql_Dw3yoGoKQT-Tm_6OiEjs0vI0WBIVTgS_gHHN80_ERDcBml5YDuPdDkRRrxvxkstX2EqoPQ",
+      "author": {
+        "name": "Steffen Heiler",
+        "initial": "S",
+        "avatar_url": "avatars/65e1347d08221ddda3af9a3ffacf222dcd167dd9.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-19",
+      "date_display": "19 Oktober 2026",
+      "text": "toller Simulator, kaum man Unterschied zu einem professionellen FFs nach CS-FSTD(A) spürbar.\nDer Betreiber ist sehr nett und kennt sich wirklich gut aus, Preis/Leistung ist überragend.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmd9guWhrcs4FyUSdqhaysL9lbOQGGf8oBWzgeIRP3d5vqkDFDqL9lZbcbnLkoTru7hP5sIEg",
       "author": {
