@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T08:22:49Z",
+  "updated_at": "2026-10-22T08:25:16Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -5585,7 +5585,7 @@
     {
       "id": "AbFvOqkVPJtrek8adF0oDfNn2sZAyWy3rzbO-vhjL1U4B9eRQqLDdlhuplL9hUYNjAfcGSQu0qochQ",
       "author": {
-        "name": "M. R.",
+        "name": "Marco R.",
         "initial": "M",
         "avatar_url": "avatars/7fbf153253897309fdff1654c6ea11624c0d2fe4.jpg",
         "profile_url": null
