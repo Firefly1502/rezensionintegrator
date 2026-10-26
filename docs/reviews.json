@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25T08:13:20Z",
+  "updated_at": "2026-10-26T08:39:49Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -26,7 +26,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Angelika! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -44,7 +47,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Steffen – freut mich, dass euch der Simulator so gut gefallen hat ! kommt sehr gerne mal wieder 😊\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -62,7 +68,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Klaus! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -80,7 +89,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Oliver! Freut mich, dass euch der Flug und die Einweisung gefallen hat. Komm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -98,7 +110,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Leonard, das freut mich sehr, dass dir der Flug so gut gelaufen ist und dass du dich gleich wieder im A320 heimisch gefühlt hast. Die Anflüge sind immer eine gute Lernkurve, und genau darauf kommt es an... es geht um das echte Gefühl für die Maschine, nicht um Perfektion beim ersten Mal. Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -116,7 +131,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Christoph – freut mich, dass dir die Anleitung und der Flug so gut gefallen haben! Komm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -134,7 +152,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Evi – freut mich, dass dir das Erlebnis so gut gefallen hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -152,7 +173,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Vielen lieben Dank !!! freut mich, dass euch der Realismus und die Bewegungen gefallen haben. LG\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -170,7 +194,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Sunee – freut mich, dass euch das Erlebnis so gut gefallen hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -188,7 +215,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Titus – freut mich, dass die Einweisung gepasst hat und du direkt Spaß am Fliegen gefunden hast. Dann viel Erfolg beim nächsten Mal mit einem größeren Paket!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -206,7 +236,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieber Herr Bassenauer, freut mich dass es Ihnen beim zweiten Mal genauso gut gefallen hat. Vielen Dank für die tolle Bewertung ! \nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -224,7 +257,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, freut mich, dass dir der Flug so viel Spaß gemacht hat. Wenn es dich näher an deinen Traum bringt, umso besser. Komm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -242,7 +278,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Vielen Dank, freut mich, dass dir der Besuch so gut gefallen hat! 😊\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -260,7 +299,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieben Dank freut mich, dass das Erlebnis so gut angekommen ist! Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -278,7 +320,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieber Herr Bartels,\n\nvielen Dank für die fünf Sterne und das ausführliche Feedback. Schön, dass die Anleitung und die Flugübungen gut funktioniert haben und dass Sie am Ende begeistert waren. \n\nMichael\nInhaber Full Flight Sim",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -296,7 +341,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieber Peter,\n\nvielen Dank für die fünf Sterne – freut mich, dass Ihr Sohn viel Spaß hatte und die Anleitung gepasst hat. Gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -314,7 +362,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Arndt – freut mich, dass dir das Erlebnis so gut gefallen hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -332,7 +383,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Matti! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -350,7 +404,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Jan – freut mich, dass dir die Session so gut gefallen hat!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -368,7 +425,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieber Rudolf,\n\nvielen Dank für die fünf Sterne! Freut mich, dass die Einweisung gepasst hat und Sie die drei Platzrunden genießen konnten. \nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-10-25"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -1012,7 +1072,7 @@
       "rating": 5,
       "date_iso": "2026-06-25",
       "date_display": "25 Juni 2026",
-      "text": "Ich war jetzt schon mehrmals hier und bin jedes Mal aufs Neue begeistert. Wer schon immer mal im Cockpit sitzen wollte, sollte es hier einfach ausprobiert haben.\nDas Zusammenspiel aus dem detailgetreuen Cockpit und der Bewegung der Plattform ist extrem gut umgesetzt. Man vergisst sofort, dass man in einer Simulation sitzt. Ein großes Lob geht an Michael: Er ist super entspannt, erklärt alles ohne Druck und passt den Flug genau an das an, was man sich zutraut – egal ob beim ersten Mal oder als Wiederholungstäter. Man fühlt sich einfach rundum gut aufgehoben.\nFür mich ist jeder Besuch ein echtes Highlight. Wer noch zögert, macht mit einer Buchung definitiv nichts falsch. Es lohnt sich!",
+      "text": "Einfach ein großartiges Erlebnis. Vielen Dank und bis zum nächsten Mal.",
       "language": null,
       "verified": true,
       "photos": [],
