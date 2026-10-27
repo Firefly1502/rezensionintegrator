@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T08:39:49Z",
+  "updated_at": "2026-10-27T08:46:34Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 305,
+    "rating_count": 306,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlRQMsYzY9aS7eJ6njUkXrrTsMNk00BOoqlQq6L337pIllHnD1Lg78jby5CQHHe674LbrHFzA",
+      "author": {
+        "name": "Arvid Tegtmeier",
+        "initial": "A",
+        "avatar_url": "avatars/e8ddf7f857e9db436698cab3e03022a31c34a9d6.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-26",
+      "date_display": "26 Oktober 2026",
+      "text": "Super Erfahrung! Zwei Parkplätze sind vorhanden, einen für den Chef und einen für dich. Der Ablauf war sehr unkompliziert und das Erlebnis wird auf dein Vorwissen abgestimmt. Auch ohne Vorwissen, ist der Simulatorflug nur zu empfehlen. Man sollte auf jeden Fall mit genug Schlaf kommen, da es mental sehr anfordernd ist.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqnu8Bccvb_J8557VVKYBU-u0t6lLGsSFJQ_7zLNTSRWMhE2YPx3LZWLL6B5vr_0gIQB8XTYfg",
       "author": {
