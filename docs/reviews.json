@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T09:38:42Z",
+  "updated_at": "2026-10-30T09:45:04Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 307,
+    "rating_count": 308,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkfmm6Vp5W3hArMzxgey54ICKDY2VofMYo_XjuKvHTwdBwk6fdVk0UUx0h4OgbmOvmU0voJCA",
+      "author": {
+        "name": "Alin Crisan",
+        "initial": "A",
+        "avatar_url": "avatars/62b24decb98819410419bcf140c797a6eef1e431.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-10-29",
+      "date_display": "29 Oktober 2026",
+      "text": "Es war einfach perfekt.... Sehr kompetente Beratung, sehr professionell.... Und viel besser als erwartet. Dankeschön",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlOXy-M3Ua_FLCfAeQO-A0DBd6soJG4C4Whba6g5ADcnwoZFH3mUhpBudGeCgpv99-qKhiz",
       "author": {
