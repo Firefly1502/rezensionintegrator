@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T10:14:27Z",
+  "updated_at": "2026-11-02T10:43:04Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 308,
+    "rating_count": 309,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqm4GJvV5lo8T9kZ4_KCrpiV-p9hWolu7ea_8D8ygvlR9-O0tL2W7Vmz7CwiGI42rAxHlwHF",
+      "author": {
+        "name": "Gesthimani Varvatou",
+        "initial": "G",
+        "avatar_url": "avatars/530795f6169787f4ecd951d7a10b51b60d74026d.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-01",
+      "date_display": "1 November 2026",
+      "text": "Tolle Erfahrung, die ich nicht missen möchte.\nAm Anfang wurde alles gut und ruhig erklärt, bevor es mit den Fliegen los ging. Und auch hier hatte ich meinen größten Spaß.\nDanke. 😀",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkfmm6Vp5W3hArMzxgey54ICKDY2VofMYo_XjuKvHTwdBwk6fdVk0UUx0h4OgbmOvmU0voJCA",
       "author": {
