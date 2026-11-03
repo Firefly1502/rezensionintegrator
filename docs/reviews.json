@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T10:43:04Z",
+  "updated_at": "2026-11-03T10:35:22Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 309,
+    "rating_count": 311,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmeJ1TOALX-_x-DzEp6DpuaaVEZyAV0MbBazO6S_dWQz72HDA87e7GHrPkbUFPBfSDnq4nBGw",
+      "author": {
+        "name": "Cordel Meixner",
+        "initial": "C",
+        "avatar_url": "avatars/64fb11b64c655c6d9e2799442f7b6eb52f40a5c9.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-03",
+      "date_display": "3 November 2026",
+      "text": "Wir wurden sehr nett empfangen.\nAuch alles andere ,die Einweisung ,Flug ect. wurde sehr sehr nett begleitet.\nBaby plus Kleinkind durften mit an Bord.\nEs war ein tolles Erlebnis.\nDanke ! Wir kommen gerne wieder.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqkXljr2k1Pqe4WfSaP0FplAd54kzhv4xNSzCa7Lq3SMdAZSxfC9Lk8AMTMwMqTTmjQZGjrKvg",
+      "author": {
+        "name": "Gerhard Federer",
+        "initial": "G",
+        "avatar_url": "avatars/41c4577bf79385d5afea06cd87da9e780bbd8f70.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-02",
+      "date_display": "2 November 2026",
+      "text": "",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqm4GJvV5lo8T9kZ4_KCrpiV-p9hWolu7ea_8D8ygvlR9-O0tL2W7Vmz7CwiGI42rAxHlwHF",
       "author": {
