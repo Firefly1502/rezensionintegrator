@@ -22,7 +22,7 @@
     arrows: 'desktop',
     autoRotate: 0,
     maxReviews: 50,
-    minRating: 1,
+    minRating: 4,
     lazyLoad: true,
     reviewsUrl: null
   };
