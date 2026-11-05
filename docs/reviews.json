@@ -1,16 +1,37 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T10:35:22Z",
+  "updated_at": "2026-11-05T22:54:10Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 311,
+    "rating_count": 312,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqn-gthFKdXNeNyE9voqJs_nVx4eU-I6TR1ANU2j7dp_i2NgJlcwhu3MGyKeQdLMZfdyUtwczQ",
+      "author": {
+        "name": "Vanessa Potzeikai",
+        "initial": "V",
+        "avatar_url": "avatars/03ff82cac64701296f643d8d6a95539b0185ed4c.jpg",
+        "profile_url": null
+      },
+      "rating": 1,
+      "date_iso": "2026-11-04",
+      "date_display": "4 November 2026",
+      "text": "Über my days gebucht als geschenk der Veranstalter ist nicht zu erreichen gewesen in über einem Jahr. Eine frechheit",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": {
+        "text": "Guten Tag Frau Potzeikai,\n\nvielen Dank für Ihre Rückmeldung. Es tut uns leid, dass Ihr Gutschein bisher nicht eingelöst werden konnte.\n\nZur Einordnung: Unsere Zusammenarbeit mit Jochen Schweizer mydays endete 2025. Seitdem ist unser Simulator dort nicht mehr buchbar, und wir können Gutscheine von mydays leider nicht mehr annehmen. Für Ihren Gutschein ist daher Jochen Schweizer mydays  zuständig und kann Ihnen eine Erstattung oder ein anderes Erlebnis anbieten. Eine Anfrage von Ihnen ist bei uns bisher nicht eingegangen, sonst hätten wir uns selbstverständlich umgehend gemeldet.\n\nHerzliche Grüße\nMichael Schneider, Full Flight Sim",
+        "date_iso": "2026-11-04"
+      },
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmeJ1TOALX-_x-DzEp6DpuaaVEZyAV0MbBazO6S_dWQz72HDA87e7GHrPkbUFPBfSDnq4nBGw",
       "author": {
