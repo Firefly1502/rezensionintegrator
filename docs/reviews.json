@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T09:46:13Z",
+  "updated_at": "2026-11-08T09:58:25Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -47,7 +47,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir vielmals , freut mich, dass es euch so gut gefallen hat ! Bis demnächst. ;-)\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -65,7 +68,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Gerhard! 🙏\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -83,7 +89,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Gesthimani – freut mich, dass die Erklärung gepasst hat und du so viel Spaß beim Fliegen hattest. Komm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -101,7 +110,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Alin – freut mich, dass die Session so gut geklappt hat und die Beratung gepasst hat. Komm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -119,7 +131,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Lieber Harald, vielen Dank für die fünf Sterne – freut mich, dass dir die Flugerfahrung gefallen hat und die Anleitung gut gepasst hat. Die Konzentration ist tatsächlich Teil des realistischen Gefühls. Gerne bis bald wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
@@ -137,7 +152,10 @@
       "language": null,
       "verified": true,
       "photos": [],
-      "owner_reply": null,
+      "owner_reply": {
+        "text": "Danke dir, Arvid freut mich, dass der Ablauf unkompliziert war und dir die Session gefallen hat. Der Tipp mit dem Schlaf ist gold wert, das merken die meisten erst beim Fliegen! 😊\n\nKomm gerne wieder!\n\nMichael (Inhaber Full Flight Sim)",
+        "date_iso": "2026-11-07"
+      },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
     {
