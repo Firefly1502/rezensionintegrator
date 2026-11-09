@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T09:58:25Z",
+  "updated_at": "2026-11-09T11:06:16Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 311,
+    "rating_count": 313,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqnYsVQvkYyJcAe-z0eCE7nc2tiVKSePrpvyb_RRujeXa51g-C67JAA2g5B2wsYIJVjlh7bp",
+      "author": {
+        "name": "Daniel Dieterle",
+        "initial": "D",
+        "avatar_url": "avatars/2e1d5eede36f215de128332b062c0f42338a2deb.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-08",
+      "date_display": "8 November 2026",
+      "text": "Sehr gute Einführung zu Beginn der Simulator-Übung, auch für Kinder geeignet, sehr freundliche Kommunikation, sehr realitätsnahe und abwechslungsreiche, z.B. mit unterschiedlichen Wetterbedingungen, Flugerfahrung.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqle3vvzEXwmVoAkdpRhGOSZUq62TxBO60p-D-lk4SL_RCpx_I8FtcQ6uiTncRrn_j4Em0rvKw",
+      "author": {
+        "name": "Markus Frenk",
+        "initial": "M",
+        "avatar_url": "avatars/16d84ed7e603836776389aa09b6e1e04f8958600.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-08",
+      "date_display": "8 November 2026",
+      "text": "Ich war mit meinem 13 jährigen Sohn im Flugsimulator und es war wirklich beeindruckend. Der Simulator ist super real und der Fluglehrer war sehr kompetent und ist toll auf unseren Sohn eingegangen und hat ihm alles erklärt. Es hat sehr viel Spass gemacht und ist sehr zu empfehlen. Wir kommen bestimmt mal wieder.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqn-gthFKdXNeNyE9voqJs_nVx4eU-I6TR1ANU2j7dp_i2NgJlcwhu3MGyKeQdLMZfdyUtwczQ",
       "author": {
