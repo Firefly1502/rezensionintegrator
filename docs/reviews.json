@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T11:06:16Z",
+  "updated_at": "2026-11-10T10:52:27Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 313,
+    "rating_count": 315,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqkl0IaZQpu4wcbrpp5pU0V4TxZO6LR8mTzlLjVtX2s7iYRewIzL-43oSeKE4ei0t2MjIEzFUA",
+      "author": {
+        "name": "Sebastian Jaschke",
+        "initial": "S",
+        "avatar_url": "avatars/049dd2a4839e24b9fb7eacfee5c61e352d27bf2e.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-09",
+      "date_display": "9 November 2026",
+      "text": "★★★★★ Ein außergewöhnliches Flugerlebnis und absolut empfehlenswert!\n\nAm 29.10.2026 waren wir bei Full Flight Sim in Griesheim. Unser Sohn hatte zu seinem 16. Geburtstag seinen ersten Flug im Airbus A320 Simulator geschenkt bekommen. Was wir dort erleben durften, hat unsere Erwartungen deutlich übertroffen!\n\nBereits der Empfang durch Michael Schneider war ausgesprochen freundlich und herzlich. Vor Beginn erkundigte er sich ausführlich nach den fliegerischen Vorkenntnissen unseres Sohnes und stimmte die Einweisung individuell darauf ab.\n\nDa unser Sohn bereits Segelflugzeug fliegt und kurz vor seiner praktischen Scheinprüfung steht, waren entsprechende fliegerische Grundlagen vorhanden. Auch mit der A320 Simulation am PC hatte er bereits erste Erfahrungen gesammelt. Michael Schneider verstand es hervorragend, genau auf diesem Wissensstand aufzubauen und die Einweisung entsprechend anspruchsvoll und gleichzeitig verständlich zu gestalten.\n\nWährend der gesamten 90 Minuten Flugzeit wurden zwei vollständige Flüge mit eigenständigen Starts und Landungen unter ausführlicher Anleitung durchgeführt:\n\n✈️ Frankfurt (EDDF) – Frankfurt (EDDF)\n\n✈️ Düsseldorf (EDDL) – Frankfurt (EDDF)\n\nBesonders beeindruckend war dabei die technische Ausstattung des Simulators. Der professionelle 3D-Simulator vermittelt durch seine bewegliche Plattform die Bewegungen und Flugzustände eines echten Verkehrsflugzeugs. In Verbindung mit den Laserprojektoren und den originalgetreuen A320-Steuerelementen entsteht gefühlt ein unglaublich realistisches Flugerlebnis.\n\nMan merkt sofort, dass hier nicht einfach nur ein Bildschirm vor einem Cockpit steht. Die Bewegungen, die Rundumsicht und das gesamte Fluggefühl sorgen dafür, dass Simulation und Realität tatsächlich miteinander verschmelzen. Aus unserer Sicht war es absolut die richtige Entscheidung, auf einen solchen Simulator zu setzen.\n\nAuch wir als Eltern kamen voll auf unsere Kosten. Wir hatten ausreichend Platz, um das gesamte Erlebnis gemeinsam im Simulator mitzuerleben und dabei Fotos und Videos aufzunehmen. So konnten wir diesen besonderen Moment nicht nur begleiten, sondern auch dauerhaft festhalten.\n\nEin ganz besonderes Lob gilt Michael Schneider. Er ist nicht nur ausgesprochen freundlich, sondern verfügt offensichtlich auch über ein hervorragendes Gespür dafür, auf die individuellen Kenntnisse und Fragen seiner Gäste einzugehen. Jede Frage wurde geduldig, fachlich fundiert und verständlich beantwortet. Die Betreuung war durchgehend professionell und persönlich zugleich.\n\nUnser Fazit:\n\nUnser Sohn und wir waren restlos begeistert! Es war für uns alle ein außergewöhnliches und unvergessliches Erlebnis. Für unseren Sohn war es weit mehr als ein Geburtstagsgeschenk. Die Erfahrung im A320 Cockpit hat ihn zusätzlich darin bestärkt, weiter seinen großen Traum zu verfolgen und eines Tages selbst als Pilot im Cockpit eines Verkehrsflugzeugs zu sitzen.\n\nWer ein wirklich realistisches Flugsimulationserlebnis sucht und nicht einfach nur ein paar Minuten vor einem Bildschirm verbringen möchte, ist bei Full Flight Sim genau richtig.\n\nEine uneingeschränkte Empfehlung von unserer Seite! Wir kommen bestimmt bald wieder.",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqkdJMYI1ydyCKyscD7BLJWPYquE3mmiIzlEd0CgtrR945Wb6TCZrhQdGlyZr3j42cw7aShVdA",
+      "author": {
+        "name": "Petra Hachenburger",
+        "initial": "P",
+        "avatar_url": "avatars/861f3d18a9c38cbcebcc827bbbbae9d079c6709a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-09",
+      "date_display": "9 November 2026",
+      "text": "Hier passt alles: Sympathische und sehr kompetente, auch kindgerechte Einweisung, bei uns wurden es sogar 90 statt 60 Minuten! Alle Beteiligten super zufrieden, ein tolles Erlebnis!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqnYsVQvkYyJcAe-z0eCE7nc2tiVKSePrpvyb_RRujeXa51g-C67JAA2g5B2wsYIJVjlh7bp",
       "author": {
