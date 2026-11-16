@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T10:32:24Z",
+  "updated_at": "2026-11-16T10:48:52Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 315,
+    "rating_count": 317,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqmsFPFxXYXIZcpyRm2rdm6tB7lE6_ngb3JrEhp9ei7nL81pKjomnghCPRGRyXMoAqY4bmfv",
+      "author": {
+        "name": "HectorMaestroOlala",
+        "initial": "H",
+        "avatar_url": "avatars/07239219ebf8938cd6024aa8a06f0d4ffcabcf31.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-15",
+      "date_display": "15 November 2026",
+      "text": "Sensationell, was Michael, den ich gestern bei meinem Besuch kennenlernen durfte, da aufgebaut hat. Ganz herzlichen Dank für die tollen zwei Stunden in diesem ultrarealistischen Simulator! Ich habe schon einige besucht und nun das Nonplusultra entdeckt. Dazu noch so sympathisch und kompetent. Ich kann‘s nur empfehlen!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqmx3E9sPOWjkkkqyZ4Rmfn0kdmv0FLG2j38HjBPB49jEjcq6m-N-v_LMRFhnkxMn72akXEZ",
+      "author": {
+        "name": "Josue Tobies",
+        "initial": "J",
+        "avatar_url": "avatars/130d8e67d50e302ba95f1fe5ca1606d6d2c563d1.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-15",
+      "date_display": "15 November 2026",
+      "text": "Super Inhaber, tolle Erfahrung",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqkl0IaZQpu4wcbrpp5pU0V4TxZO6LR8mTzlLjVtX2s7iYRewIzL-43oSeKE4ei0t2MjIEzFUA",
       "author": {
