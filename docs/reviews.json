@@ -1,16 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T10:48:52Z",
+  "updated_at": "2026-11-17T11:35:37Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 317,
+    "rating_count": 318,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlzK8-JYJuocNXMHNtaPxzU40nuxo1tvnr4aipQvuOjdrMp0d1qiLBOsJ3qyantaFr0IGaUtQ",
+      "author": {
+        "name": "Jörg Franz",
+        "initial": "J",
+        "avatar_url": "avatars/0150927ddf624d40ad4bba74c69d086ae1057df3.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-16",
+      "date_display": "16 November 2026",
+      "text": "Preis, Simulator, Instruktor, Abwicklung, Alles perfekt !!! Sehr empfehlenswert.\nTrotz der Entfernung von 250 Km vom Wohnort zum Simulator werden wir nie wieder woanders fliegen.\nSehr empfehlenswert!!!!!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqmsFPFxXYXIZcpyRm2rdm6tB7lE6_ngb3JrEhp9ei7nL81pKjomnghCPRGRyXMoAqY4bmfv",
       "author": {
