@@ -1,16 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T11:59:34Z",
+  "updated_at": "2026-11-24T13:25:14Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
     "name": "Full Flight Sim - A320 Flugsimulator",
     "rating_avg": 5.0,
-    "rating_count": 318,
+    "rating_count": 320,
     "google_url": "https://maps.google.com/maps?cid=16269910598960331162",
     "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJZybyS393vUcRmrlk8nxVyuE"
   },
   "reviews": [
+    {
+      "id": "AbFvOqlrgrd-2fUr_mR_UeUDmc8whZ34IeTYOvIOxutStMjTzVorFsRJYeDxHEJ5cGw-gkU1sTb0pw",
+      "author": {
+        "name": "Bayram Gündogdu",
+        "initial": "B",
+        "avatar_url": "avatars/061d5d03c84bd7d6ac44b4e9f112f727c00e0afd.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-24",
+      "date_display": "24 November 2026",
+      "text": "Einfach nur phänomenal! Das Fliegen im Simulator war ein unbeschreiblich schönes Erlebnis, das meine Erwartungen bei Weitem übertroffen hat. Super realistisches Cockpit, erstklassige Betreuung und echtes Gänsehaut-Feeling beim Starten und Landen. Absolut empfehlenswert!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
+    {
+      "id": "AbFvOqmGFB6BJFhlC-Y54ELulwwHoBq_NpOzfywk1GO3fQ87pYP1HxePtcMRWiM59SOhpKszJBnWlQ",
+      "author": {
+        "name": "Katrin Strauß",
+        "initial": "K",
+        "avatar_url": "avatars/8956fec9a01322e15e23c28d3044c0d897a1ab5a.jpg",
+        "profile_url": null
+      },
+      "rating": 5,
+      "date_iso": "2026-11-23",
+      "date_display": "23 November 2026",
+      "text": "⭐⭐⭐⭐⭐\n\nEin rundum tolles Erlebnis! Der Full Flight Slim Flugsimulator bietet eine beeindruckend realistische und spannende Flugerfahrung. Die Technik und die Simulation sind wirklich überzeugend und vermitteln einem das Gefühl, tatsächlich selbst im Cockpit zu sitzen.\n\nBesonders hervorzuheben sind die tolle Atmosphäre, die professionelle Betreuung und die verständlichen Erklärungen. Auch als Einsteiger fühlt man sich bestens aufgehoben und kann das Erlebnis von Anfang bis Ende genießen.\n\nEine absolut empfehlenswerte Erfahrung für Flugbegeisterte und alle, die einmal selbst Pilot sein möchten. Ich würde jederzeit wiederkommen!",
+      "language": null,
+      "verified": true,
+      "photos": [],
+      "owner_reply": null,
+      "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
+    },
     {
       "id": "AbFvOqlzK8-JYJuocNXMHNtaPxzU40nuxo1tvnr4aipQvuOjdrMp0d1qiLBOsJ3qyantaFr0IGaUtQ",
       "author": {
@@ -6358,7 +6394,7 @@
       "author": {
         "name": "Nadko",
         "initial": "N",
-        "avatar_url": "avatars/329b438ba3946e64e98a6770e33da22ce72f4692.jpg",
+        "avatar_url": "avatars/b7a6abc418c77aa56010a921bd2e754325d68e02.jpg",
         "profile_url": null
       },
       "rating": 5,
