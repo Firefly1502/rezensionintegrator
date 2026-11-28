@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-27T11:53:43Z",
+  "updated_at": "2026-11-28T11:28:43Z",
   "source": "business_api",
   "business": {
     "place_id": "ChIJZybyS393vUcRmrlk8nxVyuE",
@@ -210,8 +210,8 @@
       "verified": true,
       "photos": [],
       "owner_reply": {
-        "text": "Guten Tag Frau Potzeikai,\n\nvielen Dank für Ihre Rückmeldung. Es tut uns leid, dass Ihr Gutschein bisher nicht eingelöst werden konnte.\n\nZur Einordnung: Unsere Zusammenarbeit mit Jochen Schweizer mydays endete 2025. Seitdem ist unser Simulator dort nicht mehr buchbar, und wir können Gutscheine von mydays leider nicht mehr annehmen. Für Ihren Gutschein ist daher Jochen Schweizer mydays  zuständig und kann Ihnen eine Erstattung oder ein anderes Erlebnis anbieten. Eine Anfrage von Ihnen ist bei uns bisher nicht eingegangen, sonst hätten wir uns selbstverständlich umgehend gemeldet.\n\nHerzliche Grüße\nMichael Schneider, Full Flight Sim",
-        "date_iso": "2026-11-04"
+        "text": "Guten Tag Frau Potzeikai,\n\nvielen Dank für Ihre Rückmeldung. Es tut uns leid, dass Sie Ihren Gutschein bisher nicht einlösen konnten.\n\nZur Einordnung: Ihren Gutschein haben Sie bei Jochen Schweizer mydays gekauft. Ihr Vertragspartner ist daher ausschließlich Jochen Schweizer mydays, nicht Full Flight Sim. Der Gutschein kann nur über mydays und nur für Angebote eingelöst werden, die dort aktuell buchbar sind. Unsere Zusammenarbeit mit Jochen Schweizer mydays endete 2025, seitdem ist unser Simulator dort nicht mehr buchbar. Bitte wenden Sie sich direkt an Jochen Schweizer mydays. Dort können Sie Ihren Gutschein für ein anderes Erlebnis einlösen oder eine Lösung erhalten.\n\nWir sind per E-Mail und WhatsApp erreichbar und antworten in der Regel innerhalb eines Tages. Eine Anfrage von Ihnen ist bei uns nie eingegangen, sonst hätten wir Ihnen selbstverständlich umgehend geantwortet.\n\nHerzliche Grüße\nMichael Schneider, Full Flight Sim",
+        "date_iso": "2026-11-27"
       },
       "source_url": "https://maps.google.com/maps?cid=16269910598960331162"
     },
@@ -3937,7 +3937,7 @@
       "author": {
         "name": "Artur W",
         "initial": "A",
-        "avatar_url": "avatars/06d705d3048b08f3cda67ca09d418777588d1075.jpg",
+        "avatar_url": "avatars/c13e91c51cb51bbc0228cbc9f4285e8ab609b4af.jpg",
         "profile_url": null
       },
       "rating": 5,
